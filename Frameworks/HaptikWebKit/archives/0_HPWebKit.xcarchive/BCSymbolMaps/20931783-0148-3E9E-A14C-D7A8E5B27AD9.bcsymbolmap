@@ -2,8 +2,8 @@ BCSymbolMap Version: 2.0
 Apple clang version 12.0.0 (clang-1200.0.32.28)
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk
 iPhoneOS14.3.sdk
-/Users/Ketan/Library/Developer/Xcode/DerivedData/HPWebKit-dytdbvwoaftkhkdiugjmiklkcsff/Build/Intermediates.noindex/ArchiveIntermediates/HPWebKit/IntermediateBuildFilesPath/HPWebKit.build/Release-iphoneos/HPWebKit.build/DerivedSources/HPWebKit_vers.c
-/Users/Ketan/Documents/Repo/Wrapper-SDK
+/Users/Ketan/Library/Developer/Xcode/DerivedData/HPWebKit-eqfdjuwjpdushrhaujufoittslxc/Build/Intermediates.noindex/ArchiveIntermediates/HPWebKit/IntermediateBuildFilesPath/HPWebKit.build/Release-iphoneos/HPWebKit.build/DerivedSources/HPWebKit_vers.c
+/Users/Ketan/Documents/Repo/Webkit-framework-P
 _globalinit_33_D0989D068E70BF16758190F9AB43DB6B_func0
 _$s8HPWebKit5aView33_D0989D068E70BF16758190F9AB43DB6BLLSo6UIViewCSgvau
 _$sSo16UIViewControllerC8HPWebKitE13showHPSpinneryyF
@@ -31,7 +31,7 @@ _$sSo6CGSizeVwet
 _$sSo6CGSizeVwst
 _$sSo6CGSizeVMa
 _$sSo17UIBlurEffectStyleVMa
-_globalinit_33_215DFAE1EDE13D81F6CF2B04B063B054_func43
+_globalinit_33_215DFAE1EDE13D81F6CF2B04B063B054_func44
 _$sSo7UIColorCMa
 _$sSo20NSJSONWritingOptionsVs10SetAlgebraSCsACPxycfCTW
 _$sSo20NSJSONWritingOptionsVs10SetAlgebraSCsACP12intersectionyxxFTW
@@ -70,14 +70,15 @@ _globalinit_33_A5FA53EA1E7B21E81121C144F681AB25_token2
 _globalinit_33_A5FA53EA1E7B21E81121C144F681AB25_token3
 _globalinit_33_A5FA53EA1E7B21E81121C144F681AB25_token4
 _globalinit_33_A5FA53EA1E7B21E81121C144F681AB25_token5
-_globalinit_33_25124A8DE2802F7B112D053B2E6C56CA_token27
-_globalinit_33_1669B9CD3EBC2347CB8A82DF013B876D_token39
-_globalinit_33_1669B9CD3EBC2347CB8A82DF013B876D_token42
-_globalinit_33_215DFAE1EDE13D81F6CF2B04B063B054_token43
-_globalinit_33_7B18402F6BAA37570BA71258863AF6FA_token45
+_globalinit_33_25124A8DE2802F7B112D053B2E6C56CA_token28
+_globalinit_33_1669B9CD3EBC2347CB8A82DF013B876D_token40
+_globalinit_33_1669B9CD3EBC2347CB8A82DF013B876D_token43
+_globalinit_33_215DFAE1EDE13D81F6CF2B04B063B054_token44
+_globalinit_33_7B18402F6BAA37570BA71258863AF6FA_token46
 _$s8HPWebKit11SpinnerView33_D0989D068E70BF16758190F9AB43DB6BLLC7animateyyFTv_
 _$s8HPWebKit0A13ScriptHandlerC17handlerforWebViewACSo05WKWebG0C_tcfcTv_
-_$s8HPWebKit7PackageV10CodingKeysO8rawValueAESgSS_tcfCTv_
+_$s8HPWebKit7PackageV10CodingKeysOSYAASY8rawValuexSg03RawG0Qz_tcfCTWTv_
+_$s8HPWebKit7PackageV10CodingKeysOs0D3KeyAAsAFP11stringValuexSgSS_tcfCTWTv_
 _$s8HPWebKit9HPJSEventC10CodingKeysO8rawValueAESgSS_tcfCTv_
 _OBJC_METACLASS_$__TtC8HPWebKitP33_D0989D068E70BF16758190F9AB43DB6B11SpinnerView
 __CLASS_METHODS__TtC8HPWebKitP33_D0989D068E70BF16758190F9AB43DB6B11SpinnerView
@@ -153,7 +154,7 @@ _$s8HPWebKit11SpinnerView33_D0989D068E70BF16758190F9AB43DB6BLLCN
 -private-discriminator _D0989D068E70BF16758190F9AB43DB6B
 <swift-imported-modules>
 Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/Extension/ViewController.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/Extension/ViewController.swift
 $s8HPWebKit11SpinnerView33_D0989D068E70BF16758190F9AB43DB6BLLC4PoseVMa
 <compiler-generated>
 $s8HPWebKit11SpinnerView33_D0989D068E70BF16758190F9AB43DB6BLLC4PoseVwst
@@ -391,7 +392,7 @@ _$s8HPWebKit0A13ScriptHandlerC21userContentController_10didReceiveySo06WKUserfG0
 _$s8HPWebKit0A13ScriptHandlerC016evaluateWithJavaC10Expression02jsH0ySS_tFTq
 _$s8HPWebKit0A13ScriptHandlerCN
 _OBJC_CLASS_$__TtC8HPWebKit18HPWebScriptHandler
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/Component/HPScriptHandler.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/Component/HPScriptHandler.swift
 $s8HPWebKit9HPJSEventCACSeAAWl
 __swift_destroy_boxed_opaque_existential_0
 userContentController
@@ -450,7 +451,7 @@ _$sIeg_IeyB_TR
 _$s8HPWebKit0A10ControllerC19didFinishLoadingSDKyyFTo
 _globalinit_33_F13917E76F6F0F02E7AD6E43E86BDF9E_func1
 _globalinit_33_A5FA53EA1E7B21E81121C144F681AB25_func2
-_globalinit_33_7B18402F6BAA37570BA71258863AF6FA_func45
+_globalinit_33_7B18402F6BAA37570BA71258863AF6FA_func46
 _$s8HPWebKit0A10ControllerC10attributesAcA19HPAttributesBuilderCSg_tcfcTf4gn_n
 _$s8HPWebKit25HPInternalOperationHelperC11checkStatusAA7HPstateOyFZTf4d_n
 _$s8HPWebKit10PageHelperC13getHTMLScript10Connection10attributes14customSettings0I4DataSSSb_AA19HPAttributesBuilderCSgAA08HPCustomM0CSDyS2SGSgtFZTf4nnnnd_n
@@ -560,7 +561,7 @@ _$s8HPWebKit0A10ControllerC10attributesAcA19HPAttributesBuilderCSg_tcfCTq
 _$s8HPWebKit0A10ControllerCN
 _OBJC_CLASS_$__TtC8HPWebKit15HPWebController
 -private-discriminator _A508206D266BC3CB46B6C51FD2B205A3
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/Controller/HPWebController.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/Controller/HPWebController.swift
 $s8HPWebKit15HPEventDelegate_pSgWOb
 $s8HPWebKit15HPEventDelegate_pSgWOd
 $s10Foundation3URLVSgWOh
@@ -660,7 +661,7 @@ _$s8HPWebKit14NetworkMonitorC14stopMonitoringyyFTq
 _$s8HPWebKit14NetworkMonitorCACycfCTq
 _$s8HPWebKit14NetworkMonitorCN
 -private-discriminator _F13917E76F6F0F02E7AD6E43E86BDF9E
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/Networking/NetworkMonitor.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/Networking/NetworkMonitor.swift
 $sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMa
 $sSo17OS_dispatch_queueC8DispatchE10AttributesVAEs10SetAlgebraACWl
 $s8HPWebKit14NetworkMonitorC15startMonitoringyyFy0C06NWPathVcfU_TA
@@ -682,7 +683,6 @@ _globalinit_33_A5FA53EA1E7B21E81121C144F681AB25_func5
 _globalinit_33_A5FA53EA1E7B21E81121C144F681AB25_func2Tm
 _$s8HPWebKit13PackagePathIDV9SDKFolderSSvau
 _$s8HPWebKit15OperationHelperC11checkUpdate9pkgDetailSbAA7PackageV_tFZTf4xd_n
-_$sS2iSzsWl
 _$s8HPWebKit15OperationHelperC23createDocumentDirectory7dirNameySS_tFZTf4nd_n
 _$s8HPWebKit15OperationHelperC15validateSyncFor4typeSbAA0F4TypeO_tFZTf4nd_n
 _$s10Foundation4DateVSgWOh
@@ -698,7 +698,6 @@ _$s8HPWebKit15OperationHelperCMn
 _$s8HPWebKit15OperationHelperCMf
 _symbolic _____ 8HPWebKit15OperationHelperC
 _$s8HPWebKit15OperationHelperCMF
-_$sS2iSzsWL
 _symbolic _____Sg 10Foundation4DateV
 _$s10Foundation4DateVSgMD
 _symbolic ______p s5ErrorP
@@ -707,7 +706,7 @@ _$sSo7NSErrorCML
 _$s8HPWebKit15OperationHelperCACycfCTq
 _$s8HPWebKit15OperationHelperCN
 -private-discriminator _A5FA53EA1E7B21E81121C144F681AB25
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/Helper/OperationHelper.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/Helper/OperationHelper.swift
 $sSo7NSErrorCMa
 $s10Foundation3URLVSgWOb
 $s10Foundation4DateVSgWOh
@@ -718,12 +717,11 @@ Swift runtime failure: Double value cannot be converted to Int because it is eit
 $sSd8isFiniteSbvg
 $sSdSjsSj9magnitude9MagnitudeQzvgTW
 $sSd9magnitudeSdvg
+isStagingDemo.get
+HPWebKit/Component/HPInternalOperationHelper.swift
 createDocumentDirectory
-$sS2iSzsWl
 checkUpdate
-$sSis23CustomStringConvertiblessAAP11descriptionSSvgTW
 getLocalPackageVersion
-HPWebKit/Extension/Numbers.swift
 $s8HPWebKit13PackagePathIDV9SDKFolderSSvau
 globalinit_33_A5FA53EA1E7B21E81121C144F681AB25_func2
 $s8HPWebKit13PackagePathIDV7zipNameSSvau
@@ -759,7 +757,7 @@ _$s8HPWebKit17HPResourceManagerCACycfCTq
 _$s8HPWebKit17HPResourceManagerCN
 _$s8HPWebKit14FileDownloaderCACycfCTq
 _$s8HPWebKit14FileDownloaderCN
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/Helper/HPResourceManager.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/Helper/HPResourceManager.swift
 $s8HPWebKit14FileDownloaderC04loadC5Async3url11destination17filePathComponent10completiony10Foundation3URLV_AKSgSSySSSg_s5Error_pSgtctFZyAI4DataVSg_So13NSURLResponseCSgAOtcfU_TA
 loadFileAsync
 first.get
@@ -1014,7 +1012,7 @@ _symbolic _____ 8HPWebKit15HPCustomBuilderC
 _symbolic So7UIColorCSg
 _$s8HPWebKit15HPCustomBuilderCMF
 _$s8HPWebKit19HPAttributesBuilderC17processAttributes7builderA2C_tFZTq
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/HPAttributes.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/HPAttributes.swift
 $s8HPWebKit15HPCustomBuilderCIeyBy_ACIegg_TRTA
 $s8HPWebKit15HPCustomBuilderCIeyBy_ACIegg_TR
 $s8HPWebKit15HPCustomBuilderCMa
@@ -1090,13 +1088,14 @@ _$s8HPWebKit11HPConstantsV9HPSDKNameSSvpZ
 _$s8HPWebKit11HPConstantsV10HPResourceSSvpZ
 _$s8HPWebKit11HPConstantsV10HPBundleIDSSvpZ
 _$s8HPWebKit11HPConstantsV12DemoBundleIDSSvpZ
+_$s8HPWebKit11HPConstantsV15StagingBundleIDSSvpZ
 _$s8HPWebKit11HPConstantsV8syncTimeSivpZ
 _$s8HPWebKit11HPConstantsV10platformIDSSvpZ
 -private-discriminator _373B5E1AFBC2645F2F9BE62550F7AFE9
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/Constants/Constants.swift
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/Utility/Utility.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/Constants/Constants.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/Utility/Utility.swift
 debPrint
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/Extension/Date.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/Extension/Date.swift
 _$s8HPWebKit9HPSpinnerC14sharedInstanceACvgZ
 _$s8HPWebKit9HPSpinnerC5frameACSo6CGRectV_tcfcTo
 _$s8HPWebKit9HPSpinnerC7hitTest_4withSo6UIViewCSgSo7CGPointV_So7UIEventCSgtF
@@ -1158,7 +1157,7 @@ _$s8HPWebKit9HPSpinnerC11updateFrameyyFTo
 _$s8HPWebKit9HPSpinnerC14layoutSubviewsyyF
 _$s8HPWebKit9HPSpinnerC14layoutSubviewsyyFTo
 _$s8HPWebKit9HPSpinnerCfETo
-_globalinit_33_25124A8DE2802F7B112D053B2E6C56CA_func27
+_globalinit_33_25124A8DE2802F7B112D053B2E6C56CA_func28
 _$s8HPWebKit9HPSpinnerCSo7UILabelCIetMAgYl_TC
 _$s8HPWebKit9HPSpinnerCSo7UILabelCSgIetMAgYl_TC
 _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFSo8UIWindowC_Tg5
@@ -1248,7 +1247,7 @@ _$s8HPWebKit9HPSpinnerC16defaultTitleFontSo6UIFontCSgvMTq
 _$s8HPWebKit9HPSpinnerC5delay7seconds10completionySd_yyctFTq
 _$s8HPWebKit9HPSpinnerC13didTapSpinneryyFTq
 -private-discriminator _25124A8DE2802F7B112D053B2E6C56CA
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/HPSpinner.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/HPSpinner.swift
 $s8HPWebKit9HPSpinnerC5delay7seconds10completionySd_yyctFyycfU_TA
 $s8HPWebKit9HPSpinnerC5delay7seconds10completionySd_yyctFyycfU_
 objectdestroy.38
@@ -1300,7 +1299,7 @@ updateFrame
 $ss12_ArrayBufferV19_getElementSlowPathyyXlSiFSo8UIWindowC_Tg5
 Swift runtime failure: precondition failure
 $s8HPWebKit9HPSpinnerCMa
-globalinit_33_25124A8DE2802F7B112D053B2E6C56CA_func27
+globalinit_33_25124A8DE2802F7B112D053B2E6C56CA_func28
 spinOuter
 animationDuration.get
 outerCircleView.get
@@ -1350,7 +1349,7 @@ $s8HPWebKit9HPSpinnerC10titleLabelSo7UILabelCvpACTK
 hitTest
 innerCircleView.get
 $sIeg_IeyB_TR
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/Extension/Numbers.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/Extension/Numbers.swift
 _$s8HPWebKit17HPCustomConstantsV12primaryColorSSvpZ
 _$s8HPWebKit17HPCustomConstantsV8fontSizeSSvpZ
 _$s8HPWebKit17HPCustomConstantsV10typographySSvpZ
@@ -1363,12 +1362,12 @@ _$s8HPWebKit17HPCustomConstantsV8noHeaderSSvpZ
 _$s8HPWebKit17HPCustomConstantsV5debugSSvpZ
 _$s8HPWebKit17HPCustomConstantsV18initializeLanguageSSvpZ
 -private-discriminator _CF5BA0692B5F71C340F1F54677CC0874
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/Constants/HPCustomAttribute.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/Constants/HPCustomAttribute.swift
 _$s8HPWebKit7PackageVwCP
 _$s8HPWebKit7PackageVwxx
 _$s8HPWebKit7PackageVwcp
 _$s8HPWebKit7PackageVwca
-___swift_memcpy48_8
+___swift_memcpy32_8
 _$s8HPWebKit7PackageVwta
 _$s8HPWebKit7PackageVwet
 _$s8HPWebKit7PackageVwst
@@ -1410,7 +1409,6 @@ _$s8HPWebKit7PackageVWV
 _$s8HPWebKit7PackageVMn
 _$s8HPWebKit7PackageVMf
 _symbolic _____ 8HPWebKit7PackageV
-_symbolic Si
 _$s8HPWebKit7PackageVMF
 _symbolic _____y_____G s22KeyedDecodingContainerV 8HPWebKit7PackageV10CodingKeysO
 _$ss22KeyedDecodingContainerVy8HPWebKit7PackageV10CodingKeysOGMD
@@ -1450,7 +1448,7 @@ _$s8HPWebKit7PackageV10CodingKeysOs0D3KeyAAMcMK
 _$s8HPWebKit7PackageV10CodingKeysOs0D3KeyAAMc
 _$s8HPWebKit7PackageVN
 _$s8HPWebKit7PackageV10CodingKeysON
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/Component/Model.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/Component/Model.swift
 $s8HPWebKit7PackageV10CodingKeysOAEs23CustomStringConvertibleAAWl
 $s8HPWebKit7PackageV10CodingKeysOs0D3KeyAAs23CustomStringConvertiblePWb
 $s8HPWebKit7PackageV10CodingKeysOAEs28CustomDebugStringConvertibleAAWl
@@ -1482,7 +1480,7 @@ $s8HPWebKit7PackageVMa
 $s8HPWebKit7PackageVwst
 $s8HPWebKit7PackageVwet
 $s8HPWebKit7PackageVwta
-__swift_memcpy48_8
+__swift_memcpy32_8
 $s8HPWebKit7PackageVwca
 $s8HPWebKit7PackageVwcp
 $s8HPWebKit7PackageVwxx
@@ -1512,23 +1510,23 @@ _$s8HPWebKit5HPBoxC5valuexvsTq
 _$s8HPWebKit5HPBoxC5valuexvMTq
 _$s8HPWebKit5HPBoxCyACyxGxcfCTq
 -private-discriminator _97B59610DF7073B82031022EE3D611B6
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/Extension/Box.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/Extension/Box.swift
 __swift_instantiateGenericMetadata
 $s8HPWebKit5HPBoxCMa
 $s8HPWebKit5HPBoxCMr
 $s8HPWebKit5HPBoxCMi
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/Networking/Router.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/Networking/Router.swift
 _$s8HPWebKit9PathConstV9componentO3cssSSvau
-_globalinit_33_1669B9CD3EBC2347CB8A82DF013B876D_func39
-_globalinit_33_1669B9CD3EBC2347CB8A82DF013B876D_func42
+_globalinit_33_1669B9CD3EBC2347CB8A82DF013B876D_func40
+_globalinit_33_1669B9CD3EBC2347CB8A82DF013B876D_func43
 _$s8HPWebKit9PathConstV11HPDirectory33_1669B9CD3EBC2347CB8A82DF013B876DLLO8resourceSSvpZ
 _$s8HPWebKit9PathConstV9componentO3cssSSvpZ
 -private-discriminator _1669B9CD3EBC2347CB8A82DF013B876D
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/Helper/Path.swift
-globalinit_33_1669B9CD3EBC2347CB8A82DF013B876D_func42
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/Helper/Path.swift
+globalinit_33_1669B9CD3EBC2347CB8A82DF013B876D_func43
 $s8HPWebKit9PathConstV11HPDirectory33_1669B9CD3EBC2347CB8A82DF013B876DLLO8resourceSSvau
 +
-globalinit_33_1669B9CD3EBC2347CB8A82DF013B876D_func39
+globalinit_33_1669B9CD3EBC2347CB8A82DF013B876D_func40
 $s8HPWebKit9PathConstV9componentO3cssSSvau
 _$s8HPWebKit25HPInternalOperationHelperCfD
 _$s8HPWebKit25HPInternalOperationHelperCMa
@@ -1546,7 +1544,7 @@ _$s8HPWebKit25HPInternalOperationHelperC16openSafariWindow_10controlleryAA9HPJSE
 _$s8HPWebKit25HPInternalOperationHelperC11checkStatusAA7HPstateOyFZTq
 _$s8HPWebKit25HPInternalOperationHelperCACycfCTq
 _$s8HPWebKit25HPInternalOperationHelperCN
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/Component/HPInternalOperationHelper.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/Component/HPInternalOperationHelper.swift
 openSafariWindow
 $sSbSQsSQ2eeoiySbx_xtFZTW
 saveDeviceToken
@@ -1587,7 +1585,7 @@ _$s8HPWebKit14HPEventHandlerCN
 _OBJC_CLASS_$__TtC8HPWebKit14HPEventHandler
 _$s8HPWebKit15HPEventDelegateTL
 -private-discriminator _27EBE0343795E5C3643BE5E6692345E0
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/Component/HPEventHandler.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/Component/HPEventHandler.swift
 $s8HPWebKit15HPEventDelegate_pSgWOc
 $s8HPWebKit15HPEventDelegate_pSgWOh
 $s8HPWebKit14HPEventHandlerCMa
@@ -1597,7 +1595,7 @@ webController.get
 showSDKLoader
 _$ss11_StringGutsV15scalarAlignSlowySS5IndexVAEF
 _$sSSySsSnySS5IndexVGcigTf4nn_g
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/Extension/Color.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/Extension/Color.swift
 $sSSySsSnySS5IndexVGcigTf4nn_g
 Swift runtime failure: String index range is out of bounds
 $ss11_StringGutsV15scalarAlignSlowySS5IndexVAEF
@@ -1639,7 +1637,7 @@ _$s8HPWebKit10PageHelperC7addHtml6scriptySS_tFZTq
 _$s8HPWebKit10PageHelperCACycfCTq
 _$s8HPWebKit10PageHelperCN
 -private-discriminator _250A492FAB2734BF047CD622D1EACF91
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/Helper/HPPageHelper.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/Helper/HPPageHelper.swift
 $s10Foundation3URLVACs23CustomStringConvertibleAAWl
 $sS2SSysWl
 $sSa15_checkSubscript_20wasNativeTypeCheckeds16_DependenceTokenVSi_SbtF10Foundation3URLV_Tg5
@@ -1740,7 +1738,7 @@ _$s8HPWebKit12ServiceLayerC7request6router10completionyAA6RouterO_ys6ResultOyxs5
 _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFSS_Tg5
 _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFs11AnyHashableV_Tg5
 _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5
-_$s8HPWebKit12ServiceLayerC7request6router10completionyAA6RouterO_ys6ResultOyxs5Error_pG_xSgtctSeRzSERzlFZAA7PackageV_Tg5Tf4dnd_n
+_$s8HPWebKit12ServiceLayerC7request6router10completionyAA6RouterO_ys6ResultOyxs5Error_pG_xSgtctSeRzSERzlFZAA7PackageV_Tg5Tf4nnd_n
 _$s8HPWebKit5HPKitC5setupyyFTf4d_n
 _$s8HPWebKit7HPErrorV15navigationErrorSo7NSErrorCvgZTf4d_n
 _$s8HPWebKit5HPKitC16loadConversation16launchController10attributes10customData0I8SettingsySo06UIViewG0C_AA19HPAttributesBuilderCSDyS2SGSgAA08HPCustomN0CtKFTf4nnndn_n
@@ -1757,12 +1755,11 @@ _$s8HPWebKit12ServiceLayerC7request6router10completionyAA6RouterO_ys6ResultOyxs5
 _$s8HPWebKit7PackageVACSeAAWl
 _$s8HPWebKit12ServiceLayerC7request6router10completionyAA6RouterO_ys6ResultOyxs5Error_pG_xSgtctSeRzSERzlFZy10Foundation4DataVSg_So13NSURLResponseCSgsAK_pSgtcfU_yycfU_AA7PackageV_TG5TA
 _$sSaySSGSayxGSKsWlTm
+_$sS2iSzsWl
 _$sS2Ss5Error8HPWebKitWl
 _$ss6ResultOy8HPWebKit7PackageVs5Error_pGWOe
-_$sSSWOr
 _$s8HPWebKit7PackageVSgWOe
 _$ss6ResultOy8HPWebKit7PackageVs5Error_pGWOb
-_$s8HPWebKit7PackageVSgWOb
 _$s10Foundation3URLVSgWObTm
 _$s8HPWebKit14PackageManagerCMa
 _block_copy_helper.4
@@ -1792,16 +1789,13 @@ _$sSaySSGSayxGSKsWL
 _$sSaySSGML
 _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
 _$ss23_ContiguousArrayStorageCys7CVarArg_pGMD
-_symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation12URLQueryItemV
-_$ss23_ContiguousArrayStorageCy10Foundation12URLQueryItemVGMD
 _symbolic _____y___________pGABSgIegnn_ s6ResultO 8HPWebKit7PackageV s5ErrorP
 _$s8HPWebKit7PackageVACSeAAWL
 _block_descriptor.6
+_$sS2iSzsWL
 _$sS2Ss5Error8HPWebKitWL
 _symbolic _____y___________pG s6ResultO 8HPWebKit7PackageV s5ErrorP
 _$ss6ResultOy8HPWebKit7PackageVs5Error_pGMD
-_symbolic _____Sg 8HPWebKit7PackageV
-_$s8HPWebKit7PackageVSgMD
 _$s8HPWebKit5HPKitC8isActiveSbvgTq
 _$s8HPWebKit5HPKitC8isActiveSbvsTq
 _$s8HPWebKit5HPKitC8isActiveSbvMTq
@@ -1817,10 +1811,10 @@ _$s8HPWebKit5HPKitC11autoMessageSbvMTq
 _$s8HPWebKit5HPKitC10themeColorSo7UIColorCvgTq
 _$s8HPWebKit5HPKitC11isCustomCSSSbvgTq
 -private-discriminator _215DFAE1EDE13D81F6CF2B04B063B054
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/HPKit.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/HPKit.swift
 objectdestroy.8
-$sSSWOr
 $sS2Ss5Error8HPWebKitWl
+$sS2iSzsWl
 $sSaySSGSayxGSKsWl
 $s8HPWebKit12ServiceLayerC7request6router10completionyAA6RouterO_ys6ResultOyxs5Error_pG_xSgtctSeRzSERzlFZy10Foundation4DataVSg_So13NSURLResponseCSgsAK_pSgtcfU_yycfU_AA7PackageV_TG5TA
 $s8HPWebKit12ServiceLayerC7request6router10completionyAA6RouterO_ys6ResultOyxs5Error_pG_xSgtctSeRzSERzlFZy10Foundation4DataVSg_So13NSURLResponseCSgsAK_pSgtcfU_yycfU_AA7PackageV_TG5
@@ -1844,14 +1838,11 @@ customSettigs.set
 setup
 request
 HPWebKit/Networking/ServiceLayer.swift
-parameters.get
+host.get
 HPWebKit/Networking/Router.swift
-$sSa13_adoptStorage_5countSayxG_SpyxGts016_ContiguousArrayB0CyxGn_SitFZ10Foundation12URLQueryItemV_Tg5
-$ss22_ContiguousArrayBufferV19firstElementAddressSpyxGvg10Foundation12URLQueryItemV_Tg5
-$ss22_ContiguousArrayBufferV5count7storageAByxGSi_s01_aB7StorageCyxGtcfC10Foundation12URLQueryItemV_Tg5
-$ss22_ContiguousArrayBufferV18_initStorageHeader5count8capacityySi_SitF10Foundation12URLQueryItemV_Tg5
 $s8HPWebKit12ServiceLayerC7request6router10completionyAA6RouterO_ys6ResultOyxs5Error_pG_xSgtctSeRzSERzlFZy10Foundation4DataVSg_So13NSURLResponseCSgsAK_pSgtcfU_yycfU_AA7PackageV_Tg5
 $s8HPWebKit12ServiceLayerC7request6router10completionyAA6RouterO_ys6ResultOyxs5Error_pG_xSgtctSeRzSERzlFZy10Foundation4DataVSg_So13NSURLResponseCSgsAK_pSgtcfU_AA7PackageV_Tg5
+$sSis23CustomStringConvertiblessAAP11descriptionSSvgTW
 getHPKitStatus
 setLaunchMessage
 hideLaunchMessage.set
@@ -1882,7 +1873,7 @@ $s8HPWebKit5HPKitC8delegateAA15HPExternalEvent_pSgvsTo
 $s8HPWebKit5HPKitC8delegateAA15HPExternalEvent_pSgvgTo
 $s8HPWebKit5HPKitC12customConfig33_215DFAE1EDE13D81F6CF2B04B063B054LLAA15HPCustomBuilderCvpfiyAGcfU_
 sharedSDK.get
-globalinit_33_215DFAE1EDE13D81F6CF2B04B063B054_func43
+globalinit_33_215DFAE1EDE13D81F6CF2B04B063B054_func44
 $s10Foundation4DataVSlAASl5countSivgTW
 $s10Foundation4DataV5countSivg
 $s10Foundation4DataVSlAASly7ElementQz5IndexQzcirTW
@@ -1916,7 +1907,7 @@ $s10Foundation4DataV10startIndexSivg
 $ss15ContiguousArrayV15reserveCapacityyySiFSS_Tg5
 $ss15ContiguousArrayV20_reserveCapacityImpl07minimumD013growForAppendySi_SbtFSS_Tg5
 $ss15ContiguousArrayV12_getCapacitySiyFSS_Tg5
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/Extension/Bool.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/Extension/Bool.swift
 _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTg5Tf4gd_n
 _$sSS_yptWOc
 _symbolic _____ySS_yptG s23_ContiguousArrayStorageC
@@ -1925,7 +1916,7 @@ _symbolic SS_ypt
 _$sSS_yptMD
 _symbolic _____ySSypG s18_DictionaryStorageC
 _$ss18_DictionaryStorageCySSypGMD
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/HPError.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/HPError.swift
 $sSS_yptWOc
 $ss23_ContiguousArrayStorageCfDSS_ypt_Tg5
 $ss23_ContiguousArrayStorageCfdSS_ypt_Tg5
@@ -1976,6 +1967,7 @@ _block_destroy_helper.2
 _$s8HPWebKit10PackageIDsO9someValueSSvpZ
 _$s8HPWebKit7HPstateOACSQAAWL
 _associated conformance 8HPWebKit7HPstateOSHAASQ
+_symbolic Si
 _$s8HPWebKit7HPstateOMf
 _symbolic _____ 8HPWebKit7HPstateO
 _$s8HPWebKit7HPstateOMB
@@ -2004,7 +1996,7 @@ _$s8HPWebKit14PackageManagerC8download0C0yAaEV_tFZTq
 _$s8HPWebKit14PackageManagerCACycfCTq
 _$s8HPWebKit14PackageManagerCN
 -private-discriminator _7B18402F6BAA37570BA71258863AF6FA
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/Helper/PackageManager.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/Helper/PackageManager.swift
 __swift_allocate_boxed_opaque_existential_0
 unzipSDKArchive
 getPath
@@ -2051,7 +2043,7 @@ $sSa19_uninitializedCountSayxGSi_tcfCSS_Tg5
 $sSayxGSlsSl5countSivgTW10Foundation3URLV_Ti5
 $sSa5countSivg10Foundation3URLV_Tg5
 download
-globalinit_33_7B18402F6BAA37570BA71258863AF6FA_func45
+globalinit_33_7B18402F6BAA37570BA71258863AF6FA_func46
 $s8HPWebKit7HPstateOMa
 $sSiSHsSH4hash4intoys6HasherVz_tFTW
 $sSi4hash4intoys6HasherVz_tF
@@ -2060,7 +2052,7 @@ $s8HPWebKit7HPstateOACSQAAWl
 $s8HPWebKit7HPstateOSHAASQWb
 $s10Foundation4DataVSgSo13NSURLResponseCSgs5Error_pSgIegggg_So6NSDataCSgAGSo7NSErrorCSgIeyByyy_TR
 _$s10Foundation4DateVSgWOb
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/Extension/String.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/Extension/String.swift
 $s10Foundation4DateVSgWOb
 toDateTime
 _$s8HPWebKit0A10ControllerC05setupC0yyFyAA9HPJSEventCcfU_
@@ -2072,7 +2064,7 @@ _$s8HPWebKit9HPJSEventCIegg_ACIegn_TRTA
 _symbolic _____SgXw 8HPWebKit0A10ControllerC
 _symbolic _____Iegg_ 8HPWebKit9HPJSEventC
 _$s8HPWebKit11HPEventTypeON
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/Controller/webController-Extension.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/Controller/webController-Extension.swift
 $s8HPWebKit9HPJSEventCIegg_ACIegn_TRTA
 $s8HPWebKit9HPJSEventCIegg_ACIegn_TR
 objectdestroy.9
@@ -2117,7 +2109,7 @@ _$s8HPWebKit9HPUtilityC12validateCase15errorLogMessage0F09conditionySS_So7NSErro
 _$s8HPWebKit9HPUtilityCACycfCTq
 _$s8HPWebKit9HPUtilityCN
 -private-discriminator _FF16341C4B781B44CD1E2BCEEF01925A
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/Utility/HPUtility.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/Utility/HPUtility.swift
 $sS2Ss7CVarArg10FoundationWl
 $sSo11NSPredicateCMa
 validateCase
@@ -2246,7 +2238,7 @@ _$s8HPWebKit9HPJSEventC4fromACs7Decoder_p_tKcfCTq
 _$s8HPWebKit9HPJSEventC6encode2toys7Encoder_p_tKFTq
 _$s8HPWebKit9HPJSEventCN
 _$s8HPWebKit9HPJSEventC10CodingKeysON
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/Component/HPJSEvent.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/Component/HPJSEvent.swift
 $s8HPWebKit9HPJSEventC10CodingKeysOAEs23CustomStringConvertibleAAWl
 $s8HPWebKit9HPJSEventC10CodingKeysOs0D3KeyAAs23CustomStringConvertiblePWb
 $s8HPWebKit9HPJSEventC10CodingKeysOAEs28CustomDebugStringConvertibleAAWl
@@ -2286,7 +2278,7 @@ _$sSSs5Error8HPWebKitMcMK
 _$s8HPWebKit12ServiceLayerC7request6router10completionyAA6RouterO_ys6ResultOyxs5Error_pG_xSgtctSeRzSERzlFZTq
 _$s8HPWebKit12ServiceLayerCACycfCTq
 _$s8HPWebKit12ServiceLayerCN
-/Users/Ketan/Documents/Repo/Wrapper-SDK/HPWebKit/Networking/ServiceLayer.swift
+/Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/Networking/ServiceLayer.swift
 $s8HPWebKit12ServiceLayerCMa
 _getEmbeddedNSError
 _userInfo.get
