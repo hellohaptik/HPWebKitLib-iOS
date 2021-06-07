@@ -2,7 +2,7 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [0.1.1] - (07/06/2021) - New FY iOS
+## [0.1.1] - (07/06/2021) - B+ iOS
 
 ### Enhancement
 - Update dependency
