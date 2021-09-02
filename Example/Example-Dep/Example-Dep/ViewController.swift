@@ -52,6 +52,10 @@ class ViewController: UIViewController {
         
         launchState = enable
     }
+    
+    @IBAction func clearChat(_ sender: Any) {
+        HPKit.sharedSDK.clearConversation()
+    }
 }
 
 extension ViewController : HPExternalEvent {

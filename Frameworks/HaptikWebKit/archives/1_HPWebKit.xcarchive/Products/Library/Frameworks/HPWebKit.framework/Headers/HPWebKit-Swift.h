@@ -289,6 +289,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) HPKit * _Non
 - (void)setLaunchMessageWithMessage:(NSString * _Nonnull)message hidden:(BOOL)hidden;
 - (enum HPstate)getHPKitStatus SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)canHandleNotificationWithUserInfo:(NSDictionary * _Nonnull)userInfo SWIFT_WARN_UNUSED_RESULT;
+- (void)clearConversation;
 - (void)details;
 @end
 
@@ -611,6 +612,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) HPKit * _Non
 - (void)setLaunchMessageWithMessage:(NSString * _Nonnull)message hidden:(BOOL)hidden;
 - (enum HPstate)getHPKitStatus SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)canHandleNotificationWithUserInfo:(NSDictionary * _Nonnull)userInfo SWIFT_WARN_UNUSED_RESULT;
+- (void)clearConversation;
 - (void)details;
 @end
 
