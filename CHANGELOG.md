@@ -2,6 +2,11 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.2.1] - (10/07/2021) - Paradise Island iOS
+
+### Enhancements
+- pod support for iOS 11
+
 ## [0.2.0] - (02/07/2021) - Paradise Island iOS
 
 ### Features
