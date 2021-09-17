@@ -535,12 +535,14 @@ _$s8HPWebKit0A10ControllerC17viewWillDisappearyySbFTf4dn_n
 _$s8HPWebKit0A10ControllerC16userStateChanged6statusyAA10UserStatusO_tFTf4dn_n
 _block_copy_helper
 _block_destroy_helper
+_$sypSgWOh
 _$sSo17OS_dispatch_queueCMa
 _$s8HPWebKit0A10ControllerC19didFinishLoadingSDKyyFyycfU_TA
 _$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWl
 _$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWl
 ___swift_instantiateConcreteTypeFromMangledNameAbstract
 _$s10Foundation3URLVSgWOh
+_$sypSgWOhTm
 _$s8HPWebKit15HPEventDelegate_pSgWOd
 _$s8HPWebKit14HPEventHandlerCMa
 _$s8HPWebKit15HPEventDelegate_pSgWOb
@@ -585,6 +587,8 @@ __CATEGORY__TtC8HPWebKit15HPWebController_$_HPWebKit1
 _$s8HPWebKit0A10ControllerCAA15HPEventDelegateAAMc
 _$s8HPWebKit0A10ControllerCAA15HPEventDelegateAAWP
 _block_descriptor
+_symbolic ypSg
+_$sypSgMD
 _$sSo17OS_dispatch_queueCML
 _block_descriptor.4
 _$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWL
@@ -629,6 +633,7 @@ _$s8HPWebKit0A10ControllerC18wkWebScriptHandlerAA0afG0CSgvMTq
 _$s8HPWebKit0A10ControllerC12eventHandlerAA07HPEventE0CSgvgTq
 _$s8HPWebKit0A10ControllerC12eventHandlerAA07HPEventE0CSgvsTq
 _$s8HPWebKit0A10ControllerC12eventHandlerAA07HPEventE0CSgvMTq
+_$s8HPWebKit0A10ControllerC12isCustomUserSbvgTq
 _$s8HPWebKit0A10ControllerC10attributesAcA19HPAttributesBuilderCSg_tcfCTq
 _$s8HPWebKit0A10ControllerCN
 _OBJC_CLASS_$__TtC8HPWebKit15HPWebController
@@ -636,7 +641,7 @@ _OBJC_CLASS_$__TtC8HPWebKit15HPWebController
 /Users/Ketan/Documents/Repo/Webkit-framework-P/HPWebKit/Controller/HPWebController.swift
 $s8HPWebKit15HPEventDelegate_pSgWOb
 $s8HPWebKit15HPEventDelegate_pSgWOd
-$s10Foundation3URLVSgWOh
+$sypSgWOh
 __swift_instantiateConcreteTypeFromMangledNameAbstract
 $sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWl
 $s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWl
@@ -694,6 +699,7 @@ viewDidLoad
 title.get
 $s8HPWebKit0A10ControllerC7webViewSo05WKWebE0CSgvsTo
 $s8HPWebKit0A10ControllerC7webViewSo05WKWebE0CSgvgTo
+$sypSgs5Error_pSgIegng_yXlSgSo7NSErrorCSgIeyByy_TR
 _$s8HPWebKit14NetworkMonitorC6sharedACvau
 _$s8HPWebKit14NetworkMonitorC15startMonitoringyyF
 _$s8HPWebKit14NetworkMonitorC15startMonitoringyyFy0C06NWPathVcfU_
@@ -1598,7 +1604,6 @@ _$s8HPWebKit25HPInternalOperationHelperC15saveDeviceTokenyyAA9HPJSEventCFZTf4dd_
 _$s8HPWebKit25HPInternalOperationHelperC16openSafariWindow_10controlleryAA9HPJSEventC_So16UIViewControllerCtFZTf4nnd_n
 _$s8HPWebKit25HPInternalOperationHelperC27canHandleApplicationSchemes7withURLSbSSSg_tFZTf4nd_n
 _$sypSgWOb
-_$sypSgWOh
 _$s10Foundation3URLVSgWOhTm
 _$sypSgWObTm
 _$ss11AnyHashableVWOc
@@ -1610,8 +1615,6 @@ _$s8HPWebKit25HPInternalOperationHelperCMn
 _$s8HPWebKit25HPInternalOperationHelperCMf
 _symbolic _____ 8HPWebKit25HPInternalOperationHelperC
 _$s8HPWebKit25HPInternalOperationHelperCMF
-_symbolic ypSg
-_$sypSgMD
 _symbolic Say_____G s11AnyHashableV
 _$sSays11AnyHashableVGMD
 _$s8HPWebKit25HPInternalOperationHelperC15saveDeviceTokenyyAA9HPJSEventCFZTq
@@ -1624,6 +1627,7 @@ _$s8HPWebKit25HPInternalOperationHelperCN
 $ss11AnyHashableVWOh
 $ss11AnyHashableVWOc
 $sypSgWOb
+$s10Foundation3URLVSgWOh
 canHandleApplicationSchemes
 contains
 $sSTsE8contains5whereS2b7ElementQzKXE_tKFSays11AnyHashableVG_Tg5
@@ -1756,6 +1760,8 @@ $s8HPWebKit15HPEventDelegate_pSgWOc
 $s8HPWebKit15HPEventDelegate_pSgWOh
 $s8HPWebKit14HPEventHandlerCMa
 handleInternalEvents
+isCustomUser.get
+HPWebKit/Controller/HPWebController.swift
 delegate.get
 showSDKLoader
 _$ss11_StringGutsV15scalarAlignSlowySS5IndexVAEF
@@ -1999,7 +2005,6 @@ $ss17_NativeDictionaryV7_valuesSpyq_Gvgs11AnyHashableV_ypTg5
 setDeviceToken
 loadConversation
 navigationError.get
-HPWebKit/Controller/HPWebController.swift
 customSettigs.set
 setup
 request
@@ -2219,7 +2224,6 @@ $s8HPWebKit0A10ControllerC25setupAppStateNotificationyyFy10Foundation0G0VcfU_
 $s8HPWebKit0A10ControllerC05setupC0yyFyAA9HPJSEventCcfU_
 handleEvent
 type.get
-$sypSgWOh
 sendLaunchMessage
 hideLaunchMessage.get
 message.get
@@ -2227,7 +2231,6 @@ autoMessage.get
 setupAppStateNotification
 setupController
 bind
-$sypSgs5Error_pSgIegng_yXlSgSo7NSErrorCSgIeyByy_TR
 _$s8HPWebKit9HPUtilityCfD
 _$s8HPWebKit9HPUtilityCMa
 _$sSo11NSPredicateCMa
