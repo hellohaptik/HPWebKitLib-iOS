@@ -2,6 +2,11 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.2.2] - (17/07/2021) - Lovre museum iOS
+
+### Enhancements
+- Fix launch message flow
+
 ## [0.2.1] - (10/07/2021) - Paradise Island iOS
 
 ### Enhancements
