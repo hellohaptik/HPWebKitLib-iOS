@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HPWebKit"
-  spec.version      = "0.2.2"
+  spec.version      = "0.2.2-beta"
   spec.summary      = "Say goodbye to App Fatigue. Instantly enable 100+ chatbots across various daily tasks"
 
   spec.description  = <<-DESC
@@ -41,7 +41,7 @@ Pod::Spec.new do |spec|
 
   spec.vendored_frameworks = "Frameworks/HaptikWebKit/HPWebKit.xcframework"
   spec.platform     = :ios
-  spec.platform     = :ios, "11.0"
+  spec.platform     = :ios, "12.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 

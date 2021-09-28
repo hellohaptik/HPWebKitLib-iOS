@@ -2,6 +2,8 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.2.2-beta] - (28/09/2021) - Uses latest xcode 13 and min support for ios12.0
+
 ## [0.2.2] - (17/07/2021) - Lovre museum iOS
 
 ### Enhancements
