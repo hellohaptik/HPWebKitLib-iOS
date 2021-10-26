@@ -18,31 +18,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mCtzFMmf69YS4Q6N1UlfZpL8glw=
+		4wVwhRFBZysNLX6k38O8/mJcZVw=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		inE7DndPztm40qbv6KwAV9OgWyw=
+		nv/pJhdNH98ejHN4P7tJfy8DSXk=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		NDgVgieVN4A1yx964WjbzIsu6Qg=
+		STMZoBPmZdngmCbfHHvzTr81jBU=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		UB7BKwFeVh9noS6o9wC2jaTRLTQ=
+		QHBTcr9DjtBETskIDzr2gLlcE2w=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		inE7DndPztm40qbv6KwAV9OgWyw=
+		nv/pJhdNH98ejHN4P7tJfy8DSXk=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		NDgVgieVN4A1yx964WjbzIsu6Qg=
+		STMZoBPmZdngmCbfHHvzTr81jBU=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		UB7BKwFeVh9noS6o9wC2jaTRLTQ=
+		QHBTcr9DjtBETskIDzr2gLlcE2w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -80,42 +80,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eFSMxuttS0uKAjOu3qOgQ+L39mNZw7Yb9LVp1LORyoI=
+			XFGROmWaoU5bXepAlgIASjnbXR+4qQPCCpgNNd6FuRY=
 			</data>
 		</dict>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZJyaIdKdkDBy93QLlEE1M/C7jJBQSxvsG5RU+glzCvs=
+			qlOYwWByuvCGdLbTJptPj33p4klmC9KEGy24xeJuYTw=
 			</data>
 		</dict>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iLR+5pvoNv99GcOCDLUP4HOm3RvhfNCZYDjnmFu8WJU=
+			Qh8QIIWdGXROyNoQcV90Ba+U08HuukigIyfOJB1Jm6E=
 			</data>
 		</dict>
 		<key>Modules/HPWebKit.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eFSMxuttS0uKAjOu3qOgQ+L39mNZw7Yb9LVp1LORyoI=
+			XFGROmWaoU5bXepAlgIASjnbXR+4qQPCCpgNNd6FuRY=
 			</data>
 		</dict>
 		<key>Modules/HPWebKit.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZJyaIdKdkDBy93QLlEE1M/C7jJBQSxvsG5RU+glzCvs=
+			qlOYwWByuvCGdLbTJptPj33p4klmC9KEGy24xeJuYTw=
 			</data>
 		</dict>
 		<key>Modules/HPWebKit.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iLR+5pvoNv99GcOCDLUP4HOm3RvhfNCZYDjnmFu8WJU=
+			Qh8QIIWdGXROyNoQcV90Ba+U08HuukigIyfOJB1Jm6E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
