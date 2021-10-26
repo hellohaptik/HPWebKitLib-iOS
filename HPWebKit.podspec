@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HPWebKit"
-  spec.version      = "0.2.2-beta"
+  spec.version      = "0.2.3"
   spec.summary      = "Say goodbye to App Fatigue. Instantly enable 100+ chatbots across various daily tasks"
 
   spec.description  = <<-DESC
