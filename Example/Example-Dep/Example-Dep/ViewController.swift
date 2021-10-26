@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var launchButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        HPKit.sharedSDK.details()
         // Do any additional setup after loading the view.
         HPKit.sharedSDK.delegate = self
         if  HPKit.sharedSDK.getHPKitStatus() == .ready {
@@ -61,7 +62,6 @@ class ViewController: UIViewController {
 extension ViewController : HPExternalEvent {
     func HPKitDidLoad() {
         
-        HPKit.sharedSDK.details()
         setLaunchState(enable: true)
     }
     
