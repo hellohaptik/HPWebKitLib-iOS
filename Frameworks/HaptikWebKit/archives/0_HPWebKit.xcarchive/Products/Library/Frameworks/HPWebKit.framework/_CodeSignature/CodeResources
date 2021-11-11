@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/HPWebKit-Swift.h</key>
 		<data>
-		2LOTQNKbBm05+5xgN0Y+E/b+Ga0=
+		g+sp7xSvUYTp+VOytWfSqilHoVs=
 		</data>
 		<key>Headers/HPWebKit.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4wVwhRFBZysNLX6k38O8/mJcZVw=
+		dwKeXiIgqeniYwnJNmgvSNkiWmY=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		STMZoBPmZdngmCbfHHvzTr81jBU=
+		lMlSR7vUY/kCiGGH3WEO9CylZYs=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		QHBTcr9DjtBETskIDzr2gLlcE2w=
+		A6G9rQkssE7POBE/inK6e7W1xI0=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		STMZoBPmZdngmCbfHHvzTr81jBU=
+		lMlSR7vUY/kCiGGH3WEO9CylZYs=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		QHBTcr9DjtBETskIDzr2gLlcE2w=
+		A6G9rQkssE7POBE/inK6e7W1xI0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -66,7 +66,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PSjEFXlLFudTUesYh2h5YcRTNE1IBnNP4gEJ7LJ9coM=
+			QzecHYlwS0KSvLBxc6qDk/TX4ZeyyOlat1zFkKyW3uI=
 			</data>
 		</dict>
 		<key>Headers/HPWebKit.h</key>
@@ -87,14 +87,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qlOYwWByuvCGdLbTJptPj33p4klmC9KEGy24xeJuYTw=
+			6IprX8pyT1onJotikNx4pPev3kk8hsClf3PU+1LG3k0=
 			</data>
 		</dict>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qh8QIIWdGXROyNoQcV90Ba+U08HuukigIyfOJB1Jm6E=
+			pecTyQE1NsTTLKVSt1Bk0xYQ0zgkRT8/JQ7Dk+SqFxI=
 			</data>
 		</dict>
 		<key>Modules/HPWebKit.swiftmodule/arm64.swiftdoc</key>
@@ -108,14 +108,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qlOYwWByuvCGdLbTJptPj33p4klmC9KEGy24xeJuYTw=
+			6IprX8pyT1onJotikNx4pPev3kk8hsClf3PU+1LG3k0=
 			</data>
 		</dict>
 		<key>Modules/HPWebKit.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qh8QIIWdGXROyNoQcV90Ba+U08HuukigIyfOJB1Jm6E=
+			pecTyQE1NsTTLKVSt1Bk0xYQ0zgkRT8/JQ7Dk+SqFxI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
