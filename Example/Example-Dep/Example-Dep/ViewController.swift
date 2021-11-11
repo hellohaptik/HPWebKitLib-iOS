@@ -60,6 +60,10 @@ class ViewController: UIViewController {
 }
 
 extension ViewController : HPExternalEvent {
+    func HPKitLoadingState(state: HPLoadingState, view: UIView) {
+        
+    }
+    
     func HPKitDidLoad() {
         
         setLaunchState(enable: true)
