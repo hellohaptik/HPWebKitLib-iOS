@@ -2,6 +2,17 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.2.4] - (11/11/2021) - Nov
+
+### Enhancements
+- Add support for custom loader
+- Fix push notification
+- Add option to hide tab bar
+
+### Bugs
+- fix local storage sync issue
+- fix launch message
+
 ## [0.2.3] - (26/10/2021) - Up Next
 
 ### Enhancements

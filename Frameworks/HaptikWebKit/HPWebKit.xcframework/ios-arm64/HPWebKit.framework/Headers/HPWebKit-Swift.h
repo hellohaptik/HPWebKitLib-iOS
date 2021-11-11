@@ -240,6 +240,8 @@ SWIFT_CLASS("_TtC8HPWebKit15HPCustomBuilder")
 @property (nonatomic, copy) NSString * _Nonnull headerText;
 @property (nonatomic, copy) NSString * _Nonnull initializeLanguage;
 @property (nonatomic, copy) NSString * _Nonnull composerPlaceholder;
+@property (nonatomic) BOOL hidesTabBar;
+@property (nonatomic) BOOL loaderEnable;
 @property (nonatomic, copy) NSString * _Nonnull loaderMessage;
 @property (nonatomic) BOOL loaderAnimate;
 @property (nonatomic, strong) UIColor * _Nullable loaderColor;
@@ -247,6 +249,8 @@ SWIFT_CLASS("_TtC8HPWebKit15HPCustomBuilder")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+enum HPLoadingState : NSInteger;
+@class UIView;
 
 SWIFT_PROTOCOL("_TtP8HPWebKit15HPExternalEvent_")
 @protocol HPExternalEvent
@@ -254,6 +258,7 @@ SWIFT_PROTOCOL("_TtP8HPWebKit15HPExternalEvent_")
 /// \param error <code>Error</code> object explaining reason and recovery suggestion
 ///
 - (void)HPKitDidLoad;
+- (void)HPKitLoadingStateWithState:(enum HPLoadingState)state view:(UIView * _Nonnull)view;
 @end
 
 @class UIViewController;
@@ -293,6 +298,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) HPKit * _Non
 - (void)clearConversation;
 - (void)details;
 @end
+
+typedef SWIFT_ENUM(NSInteger, HPLoadingState, open) {
+  HPLoadingStateStart = 0,
+  HPLoadingStateComplete = 1,
+  HPLoadingStateFailed = 2,
+};
 
 @class UIEvent;
 @class UITouch;

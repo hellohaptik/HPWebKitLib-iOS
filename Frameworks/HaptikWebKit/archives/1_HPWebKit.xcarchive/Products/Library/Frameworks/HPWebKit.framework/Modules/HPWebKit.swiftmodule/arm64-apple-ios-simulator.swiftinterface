@@ -33,6 +33,8 @@ import _Concurrency
   @objc public var headerText: Swift.String
   @objc public var initializeLanguage: Swift.String
   @objc public var composerPlaceholder: Swift.String
+  @objc public var hidesTabBar: Swift.Bool
+  @objc public var loaderEnable: Swift.Bool
   @objc public var loaderMessage: Swift.String
   @objc public var loaderAnimate: Swift.Bool
   @objc public var loaderColor: UIKit.UIColor?
@@ -82,6 +84,17 @@ extension UIKit.UIColor {
 }
 @objc public protocol HPExternalEvent {
   @objc func HPKitDidLoad()
+  @objc func HPKitLoadingState(state: HPWebKit.HPLoadingState, view: UIKit.UIView)
+}
+@objc public enum HPLoadingState : Swift.Int {
+  case start = 0
+  case complete
+  case failed
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class HPKit : ObjectiveC.NSObject {
   @objc public static let sharedSDK: HPWebKit.HPKit
@@ -115,6 +128,9 @@ extension UIKit.UIColor {
 }
 extension Swift.String : Swift.Error {
 }
+extension HPWebKit.HPLoadingState : Swift.Equatable {}
+extension HPWebKit.HPLoadingState : Swift.Hashable {}
+extension HPWebKit.HPLoadingState : Swift.RawRepresentable {}
 extension HPWebKit.HPstate : Swift.Equatable {}
 extension HPWebKit.HPstate : Swift.Hashable {}
 extension HPWebKit.HPstate : Swift.RawRepresentable {}

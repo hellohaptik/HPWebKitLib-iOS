@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/HPWebKit-Swift.h</key>
 		<data>
-		1n4dI7P74//Yo6I0Hb9AOP2W+aM=
+		bWxVpc66pYK9X2VOBVm6+URiX5g=
 		</data>
 		<key>Headers/HPWebKit.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		W3fHljaj39AY6vOElY1IAcD9z9M=
+		JV6qu3M6yMcxauRV/69zkcUQtyQ=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		nPYC3WisO5CKtGbQ5VMq8/W0Pgw=
+		pPSRagLKl3oVtCkobds5QlYXvyQ=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ADBaf7FBoeoEBX4193WzvxnkFmI=
+		BCF/wp3eZ+JFxNeqp4GwqAPaH/4=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		nPYC3WisO5CKtGbQ5VMq8/W0Pgw=
+		pPSRagLKl3oVtCkobds5QlYXvyQ=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		ADBaf7FBoeoEBX4193WzvxnkFmI=
+		BCF/wp3eZ+JFxNeqp4GwqAPaH/4=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		cs1KJpydm76Xf/U1RXGwJC72Fmk=
+		Gdp9s8wggcRY8i9CXlDeK7BVky4=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fQBKYq+jlGcv0ssVesfcEeEA2uc=
+		fOZIo+DWf1GAvt31EQRP1DAXk5U=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		cs1KJpydm76Xf/U1RXGwJC72Fmk=
+		Gdp9s8wggcRY8i9CXlDeK7BVky4=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		fQBKYq+jlGcv0ssVesfcEeEA2uc=
+		fOZIo+DWf1GAvt31EQRP1DAXk5U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -90,7 +90,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jAAeqve0jouXYqBhSz2LfxKaGaA5tlWaKsumw1k3ed4=
+			vcfTY8Nl1NObzb6LEdu6aGDRaaYyGE5yuwq1ZVt8K10=
 			</data>
 		</dict>
 		<key>Headers/HPWebKit.h</key>
@@ -111,14 +111,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			L7WoicKMF7C2Y2vGKi1ze22wzipp2fCRa0oDa0lsXAg=
+			31HzwZQp/jCxmvu5dUike3eZDh4VOFeExzKIlBWXESU=
 			</data>
 		</dict>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wf6Kuso04BomuO6hhJ+7/7m7GDipMME4uD6KbFxgjeA=
+			MGEsUNMaXZgWeZtrrz01j/LhsjoasH5+1PWqF9eMDJY=
 			</data>
 		</dict>
 		<key>Modules/HPWebKit.swiftmodule/arm64.swiftdoc</key>
@@ -132,14 +132,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			L7WoicKMF7C2Y2vGKi1ze22wzipp2fCRa0oDa0lsXAg=
+			31HzwZQp/jCxmvu5dUike3eZDh4VOFeExzKIlBWXESU=
 			</data>
 		</dict>
 		<key>Modules/HPWebKit.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wf6Kuso04BomuO6hhJ+7/7m7GDipMME4uD6KbFxgjeA=
+			MGEsUNMaXZgWeZtrrz01j/LhsjoasH5+1PWqF9eMDJY=
 			</data>
 		</dict>
 		<key>Modules/HPWebKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -153,14 +153,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H8F++6g8YwboD6zAioj7LWcc0eTrRTYD2eXJduSyE5w=
+			6sOA+Ir/Qcz47nV0EGcGs8ixSjcHSjaa+3w2o+rb4RI=
 			</data>
 		</dict>
 		<key>Modules/HPWebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yc3IUU5YOmqiiBr7z5L/J0uJ/Et0FBjLwvpy6CopiiE=
+			eaEHVV0trwv+aWeL4b0pB+UMxAji/bynqrrvQIwy8BY=
 			</data>
 		</dict>
 		<key>Modules/HPWebKit.swiftmodule/x86_64.swiftdoc</key>
@@ -174,14 +174,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H8F++6g8YwboD6zAioj7LWcc0eTrRTYD2eXJduSyE5w=
+			6sOA+Ir/Qcz47nV0EGcGs8ixSjcHSjaa+3w2o+rb4RI=
 			</data>
 		</dict>
 		<key>Modules/HPWebKit.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yc3IUU5YOmqiiBr7z5L/J0uJ/Et0FBjLwvpy6CopiiE=
+			eaEHVV0trwv+aWeL4b0pB+UMxAji/bynqrrvQIwy8BY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
