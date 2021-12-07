@@ -6,11 +6,11 @@
 	<dict>
 		<key>HPWebController.nib</key>
 		<data>
-		nvABPnVOy15+fRQlhL/yUYH4Uwg=
+		k3NXjXXXTFkECb6FumpRILLGNZY=
 		</data>
 		<key>Headers/HPWebKit-Swift.h</key>
 		<data>
-		g+sp7xSvUYTp+VOytWfSqilHoVs=
+		vJWPvx3jN/+rPiM49gsyQ8JkLRM=
 		</data>
 		<key>Headers/HPWebKit.h</key>
 		<data>
@@ -18,31 +18,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		dwKeXiIgqeniYwnJNmgvSNkiWmY=
+		R7895tMUS5GX6y8n4lraNJl812U=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		nv/pJhdNH98ejHN4P7tJfy8DSXk=
+		zghiaGI9IsPtYtpNTxf/5WYHNJQ=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		lMlSR7vUY/kCiGGH3WEO9CylZYs=
+		S708Vla4lB2WSRRqD2CH5mLNGa8=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		A6G9rQkssE7POBE/inK6e7W1xI0=
+		V37Osy4AZ3wXFH0xx2m3x+M+XFQ=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		nv/pJhdNH98ejHN4P7tJfy8DSXk=
+		zghiaGI9IsPtYtpNTxf/5WYHNJQ=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		lMlSR7vUY/kCiGGH3WEO9CylZYs=
+		S708Vla4lB2WSRRqD2CH5mLNGa8=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		A6G9rQkssE7POBE/inK6e7W1xI0=
+		V37Osy4AZ3wXFH0xx2m3x+M+XFQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,14 +59,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hn6kr3N4k8N1u1Lsw+pVsaTPX4vYojXq54LxC8p3s9E=
+			99g16QW7uinH8Wk77rbQNYc2KJWqVLNEc8X9xMEuoHs=
 			</data>
 		</dict>
 		<key>Headers/HPWebKit-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QzecHYlwS0KSvLBxc6qDk/TX4ZeyyOlat1zFkKyW3uI=
+			LXN0npaQiEKDnQeGYrB4igqhUnwKLvN4ix2hybxerDw=
 			</data>
 		</dict>
 		<key>Headers/HPWebKit.h</key>
@@ -80,42 +80,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XFGROmWaoU5bXepAlgIASjnbXR+4qQPCCpgNNd6FuRY=
+			wBzlK84wok97RImir+6A2Y5okIQJMhplNG4FlG+ZmD0=
 			</data>
 		</dict>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6IprX8pyT1onJotikNx4pPev3kk8hsClf3PU+1LG3k0=
+			C/C0XfjJdGqMsPhQScO9PTBwX2878vvnp1nPqdpuE0k=
 			</data>
 		</dict>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pecTyQE1NsTTLKVSt1Bk0xYQ0zgkRT8/JQ7Dk+SqFxI=
+			z3kK4CrowvdEyya57nLDQetbbnBWVEA4RnUaJMReeTU=
 			</data>
 		</dict>
 		<key>Modules/HPWebKit.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XFGROmWaoU5bXepAlgIASjnbXR+4qQPCCpgNNd6FuRY=
+			wBzlK84wok97RImir+6A2Y5okIQJMhplNG4FlG+ZmD0=
 			</data>
 		</dict>
 		<key>Modules/HPWebKit.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6IprX8pyT1onJotikNx4pPev3kk8hsClf3PU+1LG3k0=
+			C/C0XfjJdGqMsPhQScO9PTBwX2878vvnp1nPqdpuE0k=
 			</data>
 		</dict>
 		<key>Modules/HPWebKit.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pecTyQE1NsTTLKVSt1Bk0xYQ0zgkRT8/JQ7Dk+SqFxI=
+			z3kK4CrowvdEyya57nLDQetbbnBWVEA4RnUaJMReeTU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

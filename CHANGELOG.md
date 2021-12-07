@@ -2,6 +2,11 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.2.5-Beta] - (06/10/2021) 
+
+### Enhancements
+- Added backword compatablity
+
 ## [0.2.4] - (11/11/2021) - Nov
 
 ### Enhancements
