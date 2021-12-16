@@ -6,23 +6,19 @@
 	<dict>
 		<key>Headers/SSZipArchive-umbrella.h</key>
 		<data>
-		X5uQmBDSqkavCWKxTVkwY9i69AM=
+		tyxPqZBH5KuAsptLXdHPeQqsGIQ=
 		</data>
 		<key>Headers/SSZipArchive.h</key>
 		<data>
-		eMOb5THB86gLSaWhHRTN6uX4TXU=
+		av6ZHVQfw/VJ5dGigWIKx3kcP4A=
 		</data>
 		<key>Headers/SSZipCommon.h</key>
 		<data>
 		GCJZEKmID62r9c8HV206IWHa8Ts=
 		</data>
-		<key>Headers/ZipArchive.h</key>
-		<data>
-		Qp9R3q97Fx+vdvRfm6l7CW1vHyA=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		8kHtGfa9JGTXPPsNGmQ92CL4y8o=
+		FTu0eJKQNSe1HleJgSUzWhMPSPs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -35,22 +31,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			X5uQmBDSqkavCWKxTVkwY9i69AM=
+			tyxPqZBH5KuAsptLXdHPeQqsGIQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			xV5gMI7UTlfhDJgVjRD7QD/g/E+CofQa5RV+HsIrgn4=
+			O6xT5CkVXe941z4w8yC2p/WlBFuZUdhbj0Xg1rVTbzc=
 			</data>
 		</dict>
 		<key>Headers/SSZipArchive.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eMOb5THB86gLSaWhHRTN6uX4TXU=
+			av6ZHVQfw/VJ5dGigWIKx3kcP4A=
 			</data>
 			<key>hash2</key>
 			<data>
-			OnycmTrDQDE5LwbsTHXPIdzeVk1VurvoLn+99uSbwl4=
+			Bs7miCMTRQQ96JYVFEoJyORr1eEw8KLY7bKT7SYcFRw=
 			</data>
 		</dict>
 		<key>Headers/SSZipCommon.h</key>
@@ -62,17 +58,6 @@
 			<key>hash2</key>
 			<data>
 			odGRHXoAxl6RCtuCEyO9dPCeHx3W6GhM/YlvjPJlxsA=
-			</data>
-		</dict>
-		<key>Headers/ZipArchive.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Qp9R3q97Fx+vdvRfm6l7CW1vHyA=
-			</data>
-			<key>hash2</key>
-			<data>
-			BBUkV1Gi9j15pPdqrBdMDqwT9tDWdmqiePCJBh9rpMs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -249,6 +249,7 @@ SWIFT_CLASS("_TtC8HPWebKit15HPCustomBuilder")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class HPResponse;
 enum HPLoadingState : NSInteger;
 @class UIView;
 
@@ -258,6 +259,7 @@ SWIFT_PROTOCOL("_TtP8HPWebKit15HPExternalEvent_")
 /// \param error <code>Error</code> object explaining reason and recovery suggestion
 ///
 - (void)HPKitDidLoad;
+- (void)HPUserSignupUpdateWithResult:(HPResponse * _Nonnull)result;
 - (void)HPKitLoadingStateWithState:(enum HPLoadingState)state view:(UIView * _Nonnull)view;
 @end
 
@@ -303,6 +305,20 @@ typedef SWIFT_ENUM(NSInteger, HPLoadingState, open) {
   HPLoadingStateComplete = 1,
   HPLoadingStateFailed = 2,
 };
+
+
+/// Generic external response object
+SWIFT_CLASS("_TtC8HPWebKit10HPResponse")
+@interface HPResponse : NSObject
+/// Status of response positive = true, negative = false
+@property (nonatomic, readonly) BOOL status;
+/// Error message explaining error details (Optional)
+@property (nonatomic, readonly, copy) NSString * _Nullable message;
+/// Additional data (Optional)
+@property (nonatomic, readonly, copy) NSDictionary<NSString *, id> * _Nullable data;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
 
 @class UIEvent;
 @class UITouch;
@@ -583,6 +599,7 @@ SWIFT_CLASS("_TtC8HPWebKit15HPCustomBuilder")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class HPResponse;
 enum HPLoadingState : NSInteger;
 @class UIView;
 
@@ -592,6 +609,7 @@ SWIFT_PROTOCOL("_TtP8HPWebKit15HPExternalEvent_")
 /// \param error <code>Error</code> object explaining reason and recovery suggestion
 ///
 - (void)HPKitDidLoad;
+- (void)HPUserSignupUpdateWithResult:(HPResponse * _Nonnull)result;
 - (void)HPKitLoadingStateWithState:(enum HPLoadingState)state view:(UIView * _Nonnull)view;
 @end
 
@@ -637,6 +655,20 @@ typedef SWIFT_ENUM(NSInteger, HPLoadingState, open) {
   HPLoadingStateComplete = 1,
   HPLoadingStateFailed = 2,
 };
+
+
+/// Generic external response object
+SWIFT_CLASS("_TtC8HPWebKit10HPResponse")
+@interface HPResponse : NSObject
+/// Status of response positive = true, negative = false
+@property (nonatomic, readonly) BOOL status;
+/// Error message explaining error details (Optional)
+@property (nonatomic, readonly, copy) NSString * _Nullable message;
+/// Additional data (Optional)
+@property (nonatomic, readonly, copy) NSDictionary<NSString *, id> * _Nullable data;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
 
 @class UIEvent;
 @class UITouch;

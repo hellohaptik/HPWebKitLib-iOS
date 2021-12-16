@@ -60,6 +60,10 @@ class ViewController: UIViewController {
 }
 
 extension ViewController : HPExternalEvent {
+    func HPUserSignupUpdate(result: HPResponse) {
+        
+    }
+    
     func HPKitLoadingState(state: HPLoadingState, view: UIView) {
         
     }
