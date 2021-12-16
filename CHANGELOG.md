@@ -2,7 +2,15 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [0.2.5-Beta] - (06/10/2021) 
+## [0.2.5] - (16/12/2021) 
+
+### Enhancements
+- Add user signup status callback
+
+### Bugs
+- Fix crash on back swipe
+
+## [0.2.5-Beta] - (06/12/2021) 
 
 ### Enhancements
 - Added backword compatablity
