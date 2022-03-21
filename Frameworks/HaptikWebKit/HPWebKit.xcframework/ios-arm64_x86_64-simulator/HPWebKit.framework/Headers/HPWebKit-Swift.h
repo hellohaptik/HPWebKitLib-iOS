@@ -245,6 +245,7 @@ SWIFT_CLASS("_TtC8HPWebKit15HPCustomBuilder")
 @property (nonatomic, copy) NSString * _Nonnull loaderMessage;
 @property (nonatomic) BOOL loaderAnimate;
 @property (nonatomic, strong) UIColor * _Nullable loaderColor;
+@property (nonatomic) BOOL ignoreStorage;
 + (nonnull instancetype)buildWithData:(void (^ _Nonnull)(HPCustomBuilder * _Nonnull))builderData SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -296,7 +297,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) HPKit * _Non
 - (void)setLaunchMessageWithMessage:(NSString * _Nonnull)message hidden:(BOOL)hidden;
 - (enum HPstate)getHPKitStatus SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)canHandleNotificationWithUserInfo:(NSDictionary * _Nonnull)userInfo SWIFT_WARN_UNUSED_RESULT;
-- (void)clearConversation;
+- (void)clearConversation SWIFT_UNAVAILABLE_MSG("'clearConversation' has been renamed to 'logout'");
+- (void)logout;
 - (void)details;
 @end
 
@@ -595,6 +597,7 @@ SWIFT_CLASS("_TtC8HPWebKit15HPCustomBuilder")
 @property (nonatomic, copy) NSString * _Nonnull loaderMessage;
 @property (nonatomic) BOOL loaderAnimate;
 @property (nonatomic, strong) UIColor * _Nullable loaderColor;
+@property (nonatomic) BOOL ignoreStorage;
 + (nonnull instancetype)buildWithData:(void (^ _Nonnull)(HPCustomBuilder * _Nonnull))builderData SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -646,7 +649,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) HPKit * _Non
 - (void)setLaunchMessageWithMessage:(NSString * _Nonnull)message hidden:(BOOL)hidden;
 - (enum HPstate)getHPKitStatus SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)canHandleNotificationWithUserInfo:(NSDictionary * _Nonnull)userInfo SWIFT_WARN_UNUSED_RESULT;
-- (void)clearConversation;
+- (void)clearConversation SWIFT_UNAVAILABLE_MSG("'clearConversation' has been renamed to 'logout'");
+- (void)logout;
 - (void)details;
 @end
 

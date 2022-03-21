@@ -37,6 +37,7 @@ import WebKit
   @objc public var loaderMessage: Swift.String
   @objc public var loaderAnimate: Swift.Bool
   @objc public var loaderColor: UIKit.UIColor?
+  @objc public var ignoreStorage: Swift.Bool
   @objc public class func build(data builderData: @escaping (HPWebKit.HPCustomBuilder) -> Swift.Void) -> Self
   @objc deinit
   @objc override dynamic public init()
@@ -119,7 +120,9 @@ extension UIColor {
   @objc public func setLaunchMessage(message: Swift.String, hidden: Swift.Bool)
   @objc public func getHPKitStatus() -> HPWebKit.HPstate
   @objc public func canHandleNotificationWith(UserInfo userInfo: [Swift.AnyHashable : Any]) -> Swift.Bool
+  @available(*, unavailable, renamed: "logout")
   @objc public func clearConversation()
+  @objc public func logout()
   @objc public func details()
   @objc deinit
 }

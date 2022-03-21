@@ -2,6 +2,14 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.2.6] - (21/03/2022) 
+
+### Enhancements
+- add `ignore-storage` option
+
+### Bugs
+- Fix image upload crash
+
 ## [0.2.5] - (16/12/2021) 
 
 ### Enhancements
