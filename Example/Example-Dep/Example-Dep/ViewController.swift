@@ -55,7 +55,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func clearChat(_ sender: Any) {
-        HPKit.sharedSDK.clearConversation()
+        HPKit.sharedSDK.logout()
     }
 }
 

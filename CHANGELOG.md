@@ -2,6 +2,15 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.2.7] - (06/05/2022) 
+
+### Bugs
+- Fix default settings overriding BM settings
+
+### Enhancements
+- Add support for a refresh token
+- Add a unique chat ID parameter
+
 ## [0.2.6] - (21/03/2022) 
 
 ### Enhancements
