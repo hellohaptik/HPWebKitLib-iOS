@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name HPWebKit
 import Foundation
 @_exported import HPWebKit
@@ -9,6 +9,7 @@ import SafariServices
 import Swift
 import UIKit
 import WebKit
+import _Concurrency
 @_inheritsConvenienceInitializers @objc public class HPAttributesBuilder : ObjectiveC.NSObject {
   @objc public var authID: Swift.String?
   @objc public var authCode: Swift.String?
@@ -18,8 +19,8 @@ import WebKit
   @objc public var signupType: Swift.String
   @objc public var customData: [Swift.String : Swift.String]?
   @objc public class func build(data builderData: @escaping (HPWebKit.HPAttributesBuilder) -> Swift.Void) -> Self
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class HPCustomBuilder : ObjectiveC.NSObject {
   @objc public var primaryColor: Swift.String
@@ -32,6 +33,7 @@ import WebKit
   @objc public var headerText: Swift.String
   @objc public var initializeLanguage: Swift.String
   @objc public var composerPlaceholder: Swift.String
+  @objc public var uniqueChatIdentifier: Swift.String
   @objc public var hidesTabBar: Swift.Bool
   @objc public var loaderEnable: Swift.Bool
   @objc public var loaderMessage: Swift.String
@@ -39,44 +41,44 @@ import WebKit
   @objc public var loaderColor: UIKit.UIColor?
   @objc public var ignoreStorage: Swift.Bool
   @objc public class func build(data builderData: @escaping (HPWebKit.HPCustomBuilder) -> Swift.Void) -> Self
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 public func debPrint(_ object: Any...)
 public func debPrint(_ object: Any)
-@objc @_inheritsConvenienceInitializers open class HPSpinner : UIKit.UIView {
-  open class var sharedInstance: HPWebKit.HPSpinner {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class HPSpinner : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) open class var sharedInstance: HPWebKit.HPSpinner {
     get
   }
-  @objc override dynamic public init(frame: CoreGraphics.CGRect)
-  @objc override dynamic open func hitTest(_ point: CoreGraphics.CGPoint, with event: UIKit.UIEvent?) -> UIKit.UIView?
-  open var titleLabel: UIKit.UILabel {
-    get
-    set
-  }
-  open var subtitleLabel: UIKit.UILabel?
-  open class func show(_ title: Swift.String, animated: Swift.Bool = true, duration: Swift.Double = 1.0) -> HPWebKit.HPSpinner
-  open class func showWithDelay(_ delay: Swift.Double, title: Swift.String, animated: Swift.Bool = true, duration: Swift.Double = 1.0) -> HPWebKit.HPSpinner
-  open class func hide(_ completion: (() -> Swift.Void)? = nil)
-  open class func setTitleFont(_ font: UIKit.UIFont?)
-  open var title: Swift.String {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func hitTest(_ point: CoreGraphics.CGPoint, with event: UIKit.UIEvent?) -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) open var titleLabel: UIKit.UILabel {
     get
     set
   }
-  @objc override dynamic open var frame: CoreGraphics.CGRect {
-    @objc get
-    @objc set
-  }
-  open var animating: Swift.Bool {
+  @_Concurrency.MainActor(unsafe) open var subtitleLabel: UIKit.UILabel?
+  @_Concurrency.MainActor(unsafe) open class func show(_ title: Swift.String, animated: Swift.Bool = true, duration: Swift.Double = 1.0) -> HPWebKit.HPSpinner
+  @_Concurrency.MainActor(unsafe) open class func showWithDelay(_ delay: Swift.Double, title: Swift.String, animated: Swift.Bool = true, duration: Swift.Double = 1.0) -> HPWebKit.HPSpinner
+  @_Concurrency.MainActor(unsafe) open class func hide(_ completion: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) open class func setTitleFont(_ font: UIKit.UIFont?)
+  @_Concurrency.MainActor(unsafe) open var title: Swift.String {
     get
     set
   }
-  open func addTapHandler(_ tap: @escaping (() -> ()), subtitle subtitleText: Swift.String? = nil)
-  @objc override dynamic open func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
-  open func clearTapHandler()
-  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @objc open func updateFrame()
-  @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var frame: CoreGraphics.CGRect {
+    @_Concurrency.MainActor(unsafe) @objc get
+    @_Concurrency.MainActor(unsafe) @objc set
+  }
+  @_Concurrency.MainActor(unsafe) open var animating: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) open func addTapHandler(_ tap: @escaping (() -> ()), subtitle subtitleText: Swift.String? = nil)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) open func clearTapHandler()
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc @_Concurrency.MainActor(unsafe) open func updateFrame()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class HPResponse : ObjectiveC.NSObject {
@@ -84,9 +86,8 @@ public func debPrint(_ object: Any)
   @objc final public let message: Swift.String?
   @objc final public let data: [Swift.String : Any]?
   @objc deinit
-  @objc override dynamic public init()
 }
-extension UIColor {
+extension UIKit.UIColor {
   convenience public init?(hex: Swift.String)
 }
 @objc public protocol HPExternalEvent {
@@ -98,8 +99,8 @@ extension UIColor {
   case start = 0
   case complete
   case failed
-  public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
@@ -116,6 +117,7 @@ extension UIColor {
   @objc public func loadGuestConversation(launchController: UIKit.UIViewController, customData: [Swift.String : Swift.String]?) throws
   @objc public func loadConversation(launchController: UIKit.UIViewController, attributes: HPWebKit.HPAttributesBuilder, customData: [Swift.String : Swift.String]?, customSettings: HPWebKit.HPCustomBuilder = HPCustomBuilder.build { _ in}) throws
   @objc public func setDeviceToken(deviceToken: Foundation.Data)
+  @objc public func renewSignupToken(token: Swift.String)
   @objc public func setCustomSettings(settings: HPWebKit.HPCustomBuilder)
   @objc public func setLaunchMessage(message: Swift.String, hidden: Swift.Bool)
   @objc public func getHPKitStatus() -> HPWebKit.HPstate
@@ -130,13 +132,13 @@ extension UIColor {
   case unavailable = 0
   case unready
   case ready
-  public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
 }
-extension String : Swift.Error {
+extension Swift.String : Swift.Error {
 }
 extension HPWebKit.HPLoadingState : Swift.Equatable {}
 extension HPWebKit.HPLoadingState : Swift.Hashable {}
