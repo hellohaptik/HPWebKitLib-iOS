@@ -33,7 +33,7 @@ import _Concurrency
   @objc public var headerText: Swift.String
   @objc public var initializeLanguage: Swift.String
   @objc public var composerPlaceholder: Swift.String
-  @objc public var uniqueChatID: Swift.String
+  @objc public var uniqueChatIdentifier: Swift.String
   @objc public var hidesTabBar: Swift.Bool
   @objc public var loaderEnable: Swift.Bool
   @objc public var loaderMessage: Swift.String

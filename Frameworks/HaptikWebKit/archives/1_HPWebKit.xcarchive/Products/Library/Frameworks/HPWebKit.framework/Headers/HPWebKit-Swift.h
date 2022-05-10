@@ -242,7 +242,7 @@ SWIFT_CLASS("_TtC8HPWebKit15HPCustomBuilder")
 @property (nonatomic, copy) NSString * _Nonnull headerText;
 @property (nonatomic, copy) NSString * _Nonnull initializeLanguage;
 @property (nonatomic, copy) NSString * _Nonnull composerPlaceholder;
-@property (nonatomic, copy) NSString * _Nonnull uniqueChatID;
+@property (nonatomic, copy) NSString * _Nonnull uniqueChatIdentifier;
 @property (nonatomic) BOOL hidesTabBar;
 @property (nonatomic) BOOL loaderEnable;
 @property (nonatomic, copy) NSString * _Nonnull loaderMessage;
@@ -599,7 +599,7 @@ SWIFT_CLASS("_TtC8HPWebKit15HPCustomBuilder")
 @property (nonatomic, copy) NSString * _Nonnull headerText;
 @property (nonatomic, copy) NSString * _Nonnull initializeLanguage;
 @property (nonatomic, copy) NSString * _Nonnull composerPlaceholder;
-@property (nonatomic, copy) NSString * _Nonnull uniqueChatID;
+@property (nonatomic, copy) NSString * _Nonnull uniqueChatIdentifier;
 @property (nonatomic) BOOL hidesTabBar;
 @property (nonatomic) BOOL loaderEnable;
 @property (nonatomic, copy) NSString * _Nonnull loaderMessage;
