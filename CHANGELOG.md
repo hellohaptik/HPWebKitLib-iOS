@@ -2,6 +2,12 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.3.0] - (13/06/2022) 
+
+### Feature
+- add user data sync functionality
+
+
 ## [0.2.7] - (06/05/2022) 
 
 ### Bugs

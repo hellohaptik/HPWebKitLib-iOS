@@ -57,6 +57,19 @@ class ViewController: UIViewController {
     @IBAction func clearChat(_ sender: Any) {
         HPKit.sharedSDK.logout()
     }
+    
+    
+// Example code 
+//    func updateHaptikUserData()  {
+//        let customdata: [String : Any] = ["UserUpdate1":"String",
+//                                             "UserUpdate2":55556,
+//                                             "UserUpdate3":false]
+//
+//        let payload: [String : Any] = ["custom_data":customdata,
+//                                        "name" : "customTest"]
+//
+//        HPKit.sharedSDK.updateUserData(data: payload)
+//    }
 }
 
 extension ViewController : HPExternalEvent {

@@ -297,6 +297,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) HPKit * _Non
 - (void)setDeviceTokenWithDeviceToken:(NSData * _Nonnull)deviceToken;
 - (void)renewSignupTokenWithToken:(NSString * _Nonnull)token;
 - (void)setCustomSettingsWithSettings:(HPCustomBuilder * _Nonnull)settings;
+- (void)updateUserDataWithData:(NSDictionary<NSString *, id> * _Nonnull)data;
 - (void)setLaunchMessageWithMessage:(NSString * _Nonnull)message hidden:(BOOL)hidden;
 - (enum HPstate)getHPKitStatus SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)canHandleNotificationWithUserInfo:(NSDictionary * _Nonnull)userInfo SWIFT_WARN_UNUSED_RESULT;
