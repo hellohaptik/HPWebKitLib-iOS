@@ -2,6 +2,12 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.3.1] - (22/08/2022) 
+
+### Enhancements
+- add close callback
+- add `clean` method
+
 ## [0.3.0] - (13/06/2022) 
 
 ### Feature
