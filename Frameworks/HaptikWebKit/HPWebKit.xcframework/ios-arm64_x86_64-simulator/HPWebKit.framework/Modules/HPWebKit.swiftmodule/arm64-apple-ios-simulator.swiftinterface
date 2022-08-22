@@ -99,6 +99,7 @@ extension UIKit.UIColor {
   case start = 0
   case complete
   case failed
+  case closed
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -126,6 +127,7 @@ extension UIKit.UIColor {
   @available(*, unavailable, renamed: "logout")
   @objc public func clearConversation()
   @objc public func logout()
+  @objc public func clean(navController: UIKit.UINavigationController?)
   @objc public func details()
   @objc deinit
 }
