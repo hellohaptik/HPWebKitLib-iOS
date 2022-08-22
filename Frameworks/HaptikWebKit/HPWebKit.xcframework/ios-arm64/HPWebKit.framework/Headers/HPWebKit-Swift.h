@@ -268,6 +268,7 @@ SWIFT_PROTOCOL("_TtP8HPWebKit15HPExternalEvent_")
 @class UIViewController;
 @class NSData;
 enum HPstate : NSInteger;
+@class UINavigationController;
 
 SWIFT_CLASS("_TtC8HPWebKit5HPKit")
 @interface HPKit : NSObject
@@ -303,6 +304,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) HPKit * _Non
 - (BOOL)canHandleNotificationWithUserInfo:(NSDictionary * _Nonnull)userInfo SWIFT_WARN_UNUSED_RESULT;
 - (void)clearConversation SWIFT_UNAVAILABLE_MSG("'clearConversation' has been renamed to 'logout'");
 - (void)logout;
+- (void)cleanWithNavController:(UINavigationController * _Nullable)navController;
 - (void)details;
 @end
 
@@ -310,6 +312,7 @@ typedef SWIFT_ENUM(NSInteger, HPLoadingState, open) {
   HPLoadingStateStart = 0,
   HPLoadingStateComplete = 1,
   HPLoadingStateFailed = 2,
+  HPLoadingStateClosed = 3,
 };
 
 
