@@ -66,7 +66,7 @@ class ViewController: UIViewController {
 //                                             "UserUpdate3":false]
 //
 //        let payload: [String : Any] = ["custom_data":customdata,
-//                                        "name" : "customTest"]
+//                                        "username" : "customTest"]
 //
 //        HPKit.sharedSDK.updateUserData(data: payload)
 //    }
