@@ -2,6 +2,12 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.0.0] - (08/09/2022) 
+
+### Enhancements
+- add support for change language feature
+- add support for `skip-signup-chat-history`
+
 ## [0.3.1] - (22/08/2022) 
 
 ### Enhancements

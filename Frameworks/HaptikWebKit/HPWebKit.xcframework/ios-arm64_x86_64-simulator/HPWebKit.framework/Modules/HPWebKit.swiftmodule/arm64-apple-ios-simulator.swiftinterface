@@ -35,6 +35,7 @@ import _Concurrency
   @objc public var composerPlaceholder: Swift.String
   @objc public var uniqueChatIdentifier: Swift.String
   @objc public var hidesTabBar: Swift.Bool
+  @objc public var skipSignupChatHistory: Swift.Bool
   @objc public var loaderEnable: Swift.Bool
   @objc public var loaderMessage: Swift.String
   @objc public var loaderAnimate: Swift.Bool
@@ -118,6 +119,7 @@ extension UIKit.UIColor {
   @objc public func loadGuestConversation(launchController: UIKit.UIViewController, customData: [Swift.String : Swift.String]?) throws
   @objc public func loadConversation(launchController: UIKit.UIViewController, attributes: HPWebKit.HPAttributesBuilder, customData: [Swift.String : Swift.String]?, customSettings: HPWebKit.HPCustomBuilder = HPCustomBuilder.build { _ in}) throws
   @objc public func setDeviceToken(deviceToken: Foundation.Data)
+  @objc public func changeLanguage(languageCode: Swift.String, hidden: Swift.Bool = false)
   @objc public func renewSignupToken(token: Swift.String)
   @objc public func setCustomSettings(settings: HPWebKit.HPCustomBuilder)
   @objc public func updateUserData(data: [Swift.String : Any])

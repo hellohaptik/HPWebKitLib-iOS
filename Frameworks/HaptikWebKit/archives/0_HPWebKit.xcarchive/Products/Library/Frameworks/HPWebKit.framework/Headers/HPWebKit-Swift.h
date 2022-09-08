@@ -242,6 +242,7 @@ SWIFT_CLASS("_TtC8HPWebKit15HPCustomBuilder")
 @property (nonatomic, copy) NSString * _Nonnull composerPlaceholder;
 @property (nonatomic, copy) NSString * _Nonnull uniqueChatIdentifier;
 @property (nonatomic) BOOL hidesTabBar;
+@property (nonatomic) BOOL skipSignupChatHistory;
 @property (nonatomic) BOOL loaderEnable;
 @property (nonatomic, copy) NSString * _Nonnull loaderMessage;
 @property (nonatomic) BOOL loaderAnimate;
@@ -296,6 +297,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) HPKit * _Non
 ///
 - (BOOL)loadConversationWithLaunchController:(UIViewController * _Nonnull)launchController attributes:(HPAttributesBuilder * _Nonnull)attributes customData:(NSDictionary<NSString *, NSString *> * _Nullable)customData customSettings:(HPCustomBuilder * _Nonnull)customSettings error:(NSError * _Nullable * _Nullable)error;
 - (void)setDeviceTokenWithDeviceToken:(NSData * _Nonnull)deviceToken;
+- (void)changeLanguageWithLanguageCode:(NSString * _Nonnull)languageCode hidden:(BOOL)hidden;
 - (void)renewSignupTokenWithToken:(NSString * _Nonnull)token;
 - (void)setCustomSettingsWithSettings:(HPCustomBuilder * _Nonnull)settings;
 - (void)updateUserDataWithData:(NSDictionary<NSString *, id> * _Nonnull)data;
