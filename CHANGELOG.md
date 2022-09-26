@@ -2,7 +2,12 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [1.0.0] - (08/09/2022) 
+## [1.1.0] - (26/09/2022)
+
+### Enhancements
+- Add isActive public property
+
+## [1.0.0] - (08/09/2022)
 
 ### Enhancements
 - add support for change language feature
