@@ -2,6 +2,11 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.1.1] 
+
+### Enhancements
+- initializeLanguage as optional
+
 ## [1.1.0] - (26/09/2022)
 
 ### Enhancements
