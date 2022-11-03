@@ -2,6 +2,11 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.1.2] 
+
+### Enhancements
+- add `clearLaunchMessage()`
+
 ## [1.1.1] 
 
 ### Enhancements
