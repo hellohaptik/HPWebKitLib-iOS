@@ -2,6 +2,12 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] 
+
+### Feature
+- add external events for client app
+- add skip option for launch message
+
 ## [1.1.2] 
 
 ### Enhancements

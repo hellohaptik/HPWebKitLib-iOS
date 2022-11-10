@@ -95,6 +95,7 @@ extension UIKit.UIColor {
   @objc func HPKitDidLoad()
   @objc func HPUserSignupUpdate(result: HPWebKit.HPResponse)
   @objc func HPKitLoadingState(state: HPWebKit.HPLoadingState, view: UIKit.UIView)
+  @objc func HPKitEvent(data: Any)
 }
 @objc public enum HPLoadingState : Swift.Int {
   case start = 0
@@ -126,7 +127,7 @@ extension UIKit.UIColor {
   @objc public func renewSignupToken(token: Swift.String)
   @objc public func setCustomSettings(settings: HPWebKit.HPCustomBuilder)
   @objc public func updateUserData(data: [Swift.String : Any])
-  @objc public func setLaunchMessage(message: Swift.String, hidden: Swift.Bool)
+  @objc public func setLaunchMessage(message: Swift.String, hidden: Swift.Bool, skipMessage: Swift.Bool = false)
   @objc public func clearLaunchMessage()
   @objc public func getHPKitStatus() -> HPWebKit.HPstate
   @objc public func canHandleNotificationWith(UserInfo userInfo: [Swift.AnyHashable : Any]) -> Swift.Bool
