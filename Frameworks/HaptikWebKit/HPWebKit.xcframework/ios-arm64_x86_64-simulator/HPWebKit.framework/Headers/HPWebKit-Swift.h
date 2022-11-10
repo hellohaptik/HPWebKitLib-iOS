@@ -272,6 +272,7 @@ SWIFT_PROTOCOL("_TtP8HPWebKit15HPExternalEvent_")
 - (void)HPKitDidLoad;
 - (void)HPUserSignupUpdateWithResult:(HPResponse * _Nonnull)result;
 - (void)HPKitLoadingStateWithState:(enum HPLoadingState)state view:(UIView * _Nonnull)view;
+- (void)HPKitEventWithData:(id _Nonnull)data;
 @end
 
 @class UIViewController;
@@ -310,7 +311,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) HPKit * _Non
 - (void)renewSignupTokenWithToken:(NSString * _Nonnull)token;
 - (void)setCustomSettingsWithSettings:(HPCustomBuilder * _Nonnull)settings;
 - (void)updateUserDataWithData:(NSDictionary<NSString *, id> * _Nonnull)data;
-- (void)setLaunchMessageWithMessage:(NSString * _Nonnull)message hidden:(BOOL)hidden;
+- (void)setLaunchMessageWithMessage:(NSString * _Nonnull)message hidden:(BOOL)hidden skipMessage:(BOOL)skipMessage;
 - (void)clearLaunchMessage;
 - (enum HPstate)getHPKitStatus SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)canHandleNotificationWithUserInfo:(NSDictionary * _Nonnull)userInfo SWIFT_WARN_UNUSED_RESULT;
@@ -643,6 +644,7 @@ SWIFT_PROTOCOL("_TtP8HPWebKit15HPExternalEvent_")
 - (void)HPKitDidLoad;
 - (void)HPUserSignupUpdateWithResult:(HPResponse * _Nonnull)result;
 - (void)HPKitLoadingStateWithState:(enum HPLoadingState)state view:(UIView * _Nonnull)view;
+- (void)HPKitEventWithData:(id _Nonnull)data;
 @end
 
 @class UIViewController;
@@ -681,7 +683,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) HPKit * _Non
 - (void)renewSignupTokenWithToken:(NSString * _Nonnull)token;
 - (void)setCustomSettingsWithSettings:(HPCustomBuilder * _Nonnull)settings;
 - (void)updateUserDataWithData:(NSDictionary<NSString *, id> * _Nonnull)data;
-- (void)setLaunchMessageWithMessage:(NSString * _Nonnull)message hidden:(BOOL)hidden;
+- (void)setLaunchMessageWithMessage:(NSString * _Nonnull)message hidden:(BOOL)hidden skipMessage:(BOOL)skipMessage;
 - (void)clearLaunchMessage;
 - (enum HPstate)getHPKitStatus SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)canHandleNotificationWithUserInfo:(NSDictionary * _Nonnull)userInfo SWIFT_WARN_UNUSED_RESULT;
