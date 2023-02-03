@@ -2,6 +2,11 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.2.1]
+
+### Enhancements
+- Add support for call and email links
+
 ## [1.2.0] 
 
 ### Feature
