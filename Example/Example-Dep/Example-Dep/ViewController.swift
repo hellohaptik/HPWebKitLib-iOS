@@ -73,6 +73,10 @@ class ViewController: UIViewController {
 }
 
 extension ViewController : HPExternalEvent {
+    func HPKitEvent(data: Any) {
+        
+    }
+    
     func HPUserSignupUpdate(result: HPResponse) {
         
     }
