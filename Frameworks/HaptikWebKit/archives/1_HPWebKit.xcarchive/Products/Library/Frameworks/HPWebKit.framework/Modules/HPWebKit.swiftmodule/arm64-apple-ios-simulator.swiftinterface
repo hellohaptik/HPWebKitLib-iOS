@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
 // swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name HPWebKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
 @_exported import HPWebKit
 import Network
@@ -10,6 +11,7 @@ import Swift
 import UIKit
 import WebKit
 import _Concurrency
+import _StringProcessing
 @_inheritsConvenienceInitializers @objc public class HPAttributesBuilder : ObjectiveC.NSObject {
   @objc public var authID: Swift.String?
   @objc public var authCode: Swift.String?
@@ -34,6 +36,7 @@ import _Concurrency
   @objc public var initializeLanguage: Swift.String?
   @objc public var composerPlaceholder: Swift.String
   @objc public var uniqueChatIdentifier: Swift.String
+  @objc public var tabletBgColor: Swift.String
   @objc public var hidesTabBar: Swift.Bool
   @objc public var skipSignupChatHistory: Swift.Bool
   @objc public var loaderEnable: Swift.Bool
@@ -51,8 +54,8 @@ public func debPrint(_ object: Any)
   @_Concurrency.MainActor(unsafe) open class var sharedInstance: HPWebKit.HPSpinner {
     get
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func hitTest(_ point: CoreGraphics.CGPoint, with event: UIKit.UIEvent?) -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func hitTest(_ point: CoreFoundation.CGPoint, with event: UIKit.UIEvent?) -> UIKit.UIView?
   @_Concurrency.MainActor(unsafe) open var titleLabel: UIKit.UILabel {
     get
     set
@@ -66,9 +69,9 @@ public func debPrint(_ object: Any)
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var frame: CoreGraphics.CGRect {
-    @_Concurrency.MainActor(unsafe) @objc get
-    @_Concurrency.MainActor(unsafe) @objc set
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var frame: CoreFoundation.CGRect {
+    @objc get
+    @objc set
   }
   @_Concurrency.MainActor(unsafe) open var animating: Swift.Bool {
     get
