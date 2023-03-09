@@ -1,5 +1,5 @@
 PODS:
-  - HPWebKit (1.2.1):
+  - HPWebKit (1.2.2):
     - SSZipArchive (~> 2.2)
   - SSZipArchive (2.4.2)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../../"
 
 SPEC CHECKSUMS:
-  HPWebKit: 0cd4b18364dc7c71499d0793c9fa4f93e40a49ae
+  HPWebKit: 5be00a916c2c4871e7f180801272ceb6413a59c2
   SSZipArchive: e7b4f3d9e780c2acc1764cd88fbf2de28f26e5b2
 
 PODFILE CHECKSUM: 642cd3f219e2a9978a1dca0b5f97ec3977b282d0
