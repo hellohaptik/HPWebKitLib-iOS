@@ -2,6 +2,12 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.2.2]
+
+### Enhancements
+- Add bot background color
+
+
 ## [1.2.1]
 
 ### Enhancements
