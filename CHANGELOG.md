@@ -2,6 +2,11 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.2.4]
+
+### Enhancements
+- Add handleLink initSetting-release issue
+
 ## [1.2.2]
 
 ### Enhancements
