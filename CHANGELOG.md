@@ -2,6 +2,11 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.3.5]
+
+### Enhancements
+- Optimized xdk 
+
 ## [1.2.5]
 
 ### Enhancements

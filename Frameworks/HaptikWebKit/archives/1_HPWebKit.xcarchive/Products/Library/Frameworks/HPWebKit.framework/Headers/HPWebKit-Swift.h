@@ -270,7 +270,6 @@ SWIFT_CLASS("_TtC8HPWebKit19HPAttributesBuilder")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIColor;
 
 SWIFT_CLASS("_TtC8HPWebKit15HPCustomBuilder")
 @interface HPCustomBuilder : NSObject
@@ -292,7 +291,7 @@ SWIFT_CLASS("_TtC8HPWebKit15HPCustomBuilder")
 @property (nonatomic) BOOL loaderEnable;
 @property (nonatomic, copy) NSString * _Nonnull loaderMessage;
 @property (nonatomic) BOOL loaderAnimate;
-@property (nonatomic, strong) UIColor * _Nullable loaderColor;
+@property (nonatomic, copy) NSString * _Nullable loaderColorHex;
 @property (nonatomic) BOOL ignoreStorage;
 + (nonnull instancetype)buildWithData:(void (^ _Nonnull)(HPCustomBuilder * _Nonnull))builderData SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -683,7 +682,6 @@ SWIFT_CLASS("_TtC8HPWebKit19HPAttributesBuilder")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIColor;
 
 SWIFT_CLASS("_TtC8HPWebKit15HPCustomBuilder")
 @interface HPCustomBuilder : NSObject
@@ -705,7 +703,7 @@ SWIFT_CLASS("_TtC8HPWebKit15HPCustomBuilder")
 @property (nonatomic) BOOL loaderEnable;
 @property (nonatomic, copy) NSString * _Nonnull loaderMessage;
 @property (nonatomic) BOOL loaderAnimate;
-@property (nonatomic, strong) UIColor * _Nullable loaderColor;
+@property (nonatomic, copy) NSString * _Nullable loaderColorHex;
 @property (nonatomic) BOOL ignoreStorage;
 + (nonnull instancetype)buildWithData:(void (^ _Nonnull)(HPCustomBuilder * _Nonnull))builderData SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;

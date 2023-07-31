@@ -1025,6 +1025,60 @@
               "Override"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HPAttributesBuilder",
+                "printedName": "HPWebKit.HPAttributesBuilder",
+                "usr": "c:@M@HPWebKit@objc(cs)HPAttributesBuilder"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8HPWebKit19HPAttributesBuilderC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8HPWebKit19HPAttributesBuilderC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "HPWebKit",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8HPWebKit19HPAttributesBuilderC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8HPWebKit19HPAttributesBuilderC6encode2toys7Encoder_p_tKF",
+            "moduleName": "HPWebKit",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -1041,6 +1095,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2798,27 +2866,27 @@
           },
           {
             "kind": "Var",
-            "name": "loaderColor",
-            "printedName": "loaderColor",
+            "name": "loaderColorHex",
+            "printedName": "loaderColorHex",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UIKit.UIColor?",
+                "printedName": "Swift.String?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@HPWebKit@objc(cs)HPCustomBuilder(py)loaderColor",
-            "mangledName": "$s8HPWebKit15HPCustomBuilderC11loaderColorSo7UIColorCSgvp",
+            "usr": "c:@M@HPWebKit@objc(cs)HPCustomBuilder(py)loaderColorHex",
+            "mangledName": "$s8HPWebKit15HPCustomBuilderC14loaderColorHexSSSgvp",
             "moduleName": "HPWebKit",
             "declAttributes": [
               "HasInitialValue",
@@ -2836,21 +2904,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "UIKit.UIColor?",
+                    "printedName": "Swift.String?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UIColor",
-                        "printedName": "UIKit.UIColor",
-                        "usr": "c:objc(cs)UIColor"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@HPWebKit@objc(cs)HPCustomBuilder(im)loaderColor",
-                "mangledName": "$s8HPWebKit15HPCustomBuilderC11loaderColorSo7UIColorCSgvg",
+                "usr": "c:@M@HPWebKit@objc(cs)HPCustomBuilder(im)loaderColorHex",
+                "mangledName": "$s8HPWebKit15HPCustomBuilderC14loaderColorHexSSSgvg",
                 "moduleName": "HPWebKit",
                 "implicit": true,
                 "declAttributes": [
@@ -2871,21 +2939,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "UIKit.UIColor?",
+                    "printedName": "Swift.String?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UIColor",
-                        "printedName": "UIKit.UIColor",
-                        "usr": "c:objc(cs)UIColor"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@HPWebKit@objc(cs)HPCustomBuilder(im)setLoaderColor:",
-                "mangledName": "$s8HPWebKit15HPCustomBuilderC11loaderColorSo7UIColorCSgvs",
+                "usr": "c:@M@HPWebKit@objc(cs)HPCustomBuilder(im)setLoaderColorHex:",
+                "mangledName": "$s8HPWebKit15HPCustomBuilderC14loaderColorHexSSSgvs",
                 "moduleName": "HPWebKit",
                 "implicit": true,
                 "declAttributes": [
@@ -2905,8 +2973,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8HPWebKit15HPCustomBuilderC11loaderColorSo7UIColorCSgvM",
-                "mangledName": "$s8HPWebKit15HPCustomBuilderC11loaderColorSo7UIColorCSgvM",
+                "usr": "s:8HPWebKit15HPCustomBuilderC14loaderColorHexSSSgvM",
+                "mangledName": "$s8HPWebKit15HPCustomBuilderC14loaderColorHexSSSgvM",
                 "moduleName": "HPWebKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -3072,6 +3140,60 @@
               "Override"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HPCustomBuilder",
+                "printedName": "HPWebKit.HPCustomBuilder",
+                "usr": "c:@M@HPWebKit@objc(cs)HPCustomBuilder"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8HPWebKit15HPCustomBuilderC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8HPWebKit15HPCustomBuilderC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "HPWebKit",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8HPWebKit15HPCustomBuilderC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8HPWebKit15HPCustomBuilderC6encode2toys7Encoder_p_tKF",
+            "moduleName": "HPWebKit",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -3088,6 +3210,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -6252,6 +6388,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HPWebKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SSZipArchive",
         "printedName": "SSZipArchive",
         "declKind": "Import",
@@ -7235,1225 +7381,1428 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Component\/HPScriptHandler.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/HPScriptHandler.swift",
       "kind": "StringLiteral",
       "offset": 185,
       "length": 18,
       "value": "\"HPWebKit.HPWebScriptHandler\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Controller\/HPWebController.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Controller\/HPWebController.swift",
       "kind": "StringLiteral",
       "offset": 117,
       "length": 15,
       "value": "\"HPWebKit.HPWebController\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Networking\/NetworkMonitor.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Networking\/NetworkMonitor.swift",
       "kind": "BooleanLiteral",
       "offset": 388,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
       "kind": "StringLiteral",
       "offset": 142,
       "length": 15,
       "value": "\"CSS-Sync-Time\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
       "kind": "StringLiteral",
       "offset": 179,
       "length": 21,
       "value": "\"updateAPI-Sync-Time\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
       "kind": "StringLiteral",
       "offset": 142,
       "length": 15,
       "value": "\"CSS-Sync-Time\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
       "kind": "StringLiteral",
       "offset": 179,
       "length": 21,
       "value": "\"updateAPI-Sync-Time\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
       "kind": "StringLiteral",
-      "offset": 1993,
-      "length": 38,
+      "offset": 2031,
+      "length": 39,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
       "kind": "StringLiteral",
-      "offset": 2018,
+      "offset": 2057,
       "length": 1,
       "value": "\"\/haptik.html\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
-      "offset": 2063,
-      "length": 36,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 2088,
-      "length": 1,
-      "value": "\"\/loader.js\""
-    },
-    {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 2125,
-      "length": 30,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 2150,
-      "length": 1,
-      "value": "\".zip\""
-    },
-    {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 2183,
-      "length": 26,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 2208,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
-      "kind": "StringLiteral",
-      "offset": 506,
+      "offset": 525,
       "length": 13,
       "value": "\"third_party\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
-      "offset": 1299,
+      "offset": 1280,
+      "length": 9,
+      "value": "\"auth_id\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 1320,
+      "length": 11,
+      "value": "\"auth_code\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 1362,
+      "length": 10,
+      "value": "\"username\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 1403,
+      "length": 11,
+      "value": "\"mobile_no\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 1464,
+      "length": 13,
+      "value": "\"signup-type\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 1280,
+      "length": 9,
+      "value": "\"auth_id\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 1320,
+      "length": 11,
+      "value": "\"auth_code\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 1362,
+      "length": 10,
+      "value": "\"username\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 1403,
+      "length": 11,
+      "value": "\"mobile_no\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 1464,
+      "length": 13,
+      "value": "\"signup-type\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 1642,
       "length": 9,
       "value": "\"#00758a\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
-      "offset": 1368,
+      "offset": 1711,
       "length": 6,
       "value": "\"16px\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
-      "offset": 1434,
+      "offset": 1777,
       "length": 8,
       "value": "\"Roboto\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "BooleanLiteral",
-      "offset": 1501,
+      "offset": 1844,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "BooleanLiteral",
-      "offset": 1564,
+      "offset": 1907,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "BooleanLiteral",
-      "offset": 1627,
+      "offset": 1970,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
-      "offset": 1692,
+      "offset": 2035,
       "length": 38,
       "value": "\"https:\/\/www.haptik.ai\/privacy-policy\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
-      "offset": 1791,
+      "offset": 2134,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
-      "offset": 1911,
+      "offset": 2254,
       "length": 14,
       "value": "\"Type here...\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
-      "offset": 1985,
+      "offset": 2328,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
-      "offset": 2046,
+      "offset": 2389,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "BooleanLiteral",
-      "offset": 2106,
+      "offset": 2449,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "BooleanLiteral",
-      "offset": 2174,
+      "offset": 2517,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "BooleanLiteral",
-      "offset": 2237,
+      "offset": 2580,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "BooleanLiteral",
-      "offset": 2322,
+      "offset": 2665,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
-      "offset": 2388,
+      "offset": 2731,
       "length": 12,
       "value": "\"Loading...\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "BooleanLiteral",
-      "offset": 2462,
+      "offset": 2805,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "BooleanLiteral",
-      "offset": 2593,
+      "offset": 3037,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 3356,
+      "length": 15,
+      "value": "\"primary-color\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 3460,
+      "length": 27,
+      "value": "\"enable-typing-suggestions\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 3530,
+      "length": 15,
+      "value": "\"hide-composer\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 3588,
+      "length": 11,
+      "value": "\"no-header\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 3642,
+      "length": 20,
+      "value": "\"privacy-policy-url\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 3729,
+      "length": 21,
+      "value": "\"initialize-language\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 3793,
+      "length": 22,
+      "value": "\"composer-placeholder\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 3858,
+      "length": 24,
+      "value": "\"unique-chat-identifier\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 3925,
+      "length": 17,
+      "value": "\"tablet-bg-color\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 3985,
+      "length": 13,
+      "value": "\"handle-link\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 4066,
+      "length": 26,
+      "value": "\"skip-signup-chat-history\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 4243,
+      "length": 16,
+      "value": "\"ignore-storage\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 3356,
+      "length": 15,
+      "value": "\"primary-color\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 3460,
+      "length": 27,
+      "value": "\"enable-typing-suggestions\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 3530,
+      "length": 15,
+      "value": "\"hide-composer\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 3588,
+      "length": 11,
+      "value": "\"no-header\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 3642,
+      "length": 20,
+      "value": "\"privacy-policy-url\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 3729,
+      "length": 21,
+      "value": "\"initialize-language\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 3793,
+      "length": 22,
+      "value": "\"composer-placeholder\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 3858,
+      "length": 24,
+      "value": "\"unique-chat-identifier\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 3925,
+      "length": 17,
+      "value": "\"tablet-bg-color\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 3985,
+      "length": 13,
+      "value": "\"handle-link\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 4066,
+      "length": 26,
+      "value": "\"skip-signup-chat-history\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 4243,
+      "length": 16,
+      "value": "\"ignore-storage\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 175,
       "length": 13,
       "value": "\"packagePath\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 227,
       "length": 16,
       "value": "\"packageVersion\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 282,
       "length": 8,
       "value": "\"forced\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 363,
       "length": 11,
       "value": "\"localPath\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 413,
       "length": 14,
       "value": "\"localVersion\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 466,
       "length": 13,
       "value": "\"localForced\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 565,
       "length": 12,
       "value": "\"userSignIn\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 625,
       "length": 19,
       "value": "\"haptikDeviceToken\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 692,
       "length": 23,
       "value": "\"deviceTokenRegistered\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 763,
       "length": 15,
       "value": "\"requestLogout\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 870,
       "length": 20,
       "value": "\"haptikLanguageCode\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 946,
       "length": 20,
       "value": "\"hideLanguageUpdate\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1023,
       "length": 25,
       "value": "\"languageUpdateAvailable\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1164,
       "length": 9,
       "value": "\"baseUrl\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1215,
       "length": 12,
       "value": "\"businessID\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1269,
       "length": 10,
       "value": "\"clientID\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1321,
       "length": 11,
       "value": "\"HaptikLib\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1374,
       "length": 16,
       "value": "\"runEnvironment\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1473,
+      "offset": 1432,
+      "length": 90,
+      "value": "\"https:\/\/haptikdev.s3.ap-southeast-1.amazonaws.com\/javascript-xdk\/staging\/wrapperios.html\""
+    },
+    {
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1605,
       "length": 13,
       "value": "\"haptikEvent\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1538,
+      "offset": 1670,
       "length": 16,
       "value": "\"haptikXDKEvent\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1603,
+      "offset": 1735,
       "length": 11,
       "value": "\"HaptikSDK\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1656,
+      "offset": 1788,
       "length": 13,
       "value": "\"HPResources\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1711,
+      "offset": 1843,
       "length": 21,
       "value": "\"com.haptik.HPWebKit\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1774,
+      "offset": 1906,
       "length": 22,
       "value": "\"com.haptik.DemoSwift\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1843,
+      "offset": 1975,
       "length": 30,
       "value": "\"com.haptik.framework.devDemo\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1917,
+      "offset": 2049,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1961,
+      "offset": 2093,
       "length": 3,
       "value": "\"6\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Extension\/Date.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Extension\/Date.swift",
       "kind": "StringLiteral",
       "offset": 144,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Extension\/Date.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Extension\/Date.swift",
       "kind": "StringLiteral",
       "offset": 386,
       "length": 18,
       "value": "\"yyyy-MM-dd HH:mm\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 460,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "BooleanLiteral",
       "offset": 3262,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 3287,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "BooleanLiteral",
       "offset": 4600,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 4625,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 6553,
       "length": 4,
       "value": "0.15"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 6566,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 6682,
       "length": 4,
       "value": "0.75"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 6691,
       "length": 4,
       "value": "0.75"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 6740,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 6887,
       "length": 4,
       "value": "0.35"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 6900,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 6929,
       "length": 4,
       "value": "0.35"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 6958,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "Array",
       "offset": 6972,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 7123,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "StringLiteral",
       "offset": 6413,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 7789,
       "length": 4,
       "value": "20.0"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 7799,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 8397,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 8446,
       "length": 4,
       "value": "0.45"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 8498,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 8547,
       "length": 3,
       "value": "0.9"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 8619,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 8668,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 8719,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 8768,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "BooleanLiteral",
       "offset": 8054,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "StringLiteral",
       "offset": 10685,
       "length": 15,
       "value": "\"HelveticaNeue\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 10708,
       "length": 4,
       "value": "22.0"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 10804,
       "length": 5,
       "value": "200.0"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 10819,
       "length": 5,
       "value": "200.0"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 11256,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 11312,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 186,
       "length": 15,
       "value": "\"primary-color\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 248,
       "length": 17,
       "value": "\"tablet-bg-color\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 312,
       "length": 11,
       "value": "\"font-size\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 370,
       "length": 12,
       "value": "\"typography\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 429,
       "length": 20,
       "value": "\"privacy-policy-url\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 496,
       "length": 27,
       "value": "\"enable-typing-suggestions\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 570,
       "length": 13,
       "value": "\"header-text\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 630,
       "length": 22,
       "value": "\"composer-placeholder\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 699,
       "length": 15,
       "value": "\"hide-composer\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 761,
       "length": 11,
       "value": "\"no-header\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 819,
       "length": 7,
       "value": "\"debug\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 873,
       "length": 21,
       "value": "\"initialize-language\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 941,
       "length": 16,
       "value": "\"ignore-storage\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 1004,
       "length": 24,
       "value": "\"unique-chat-identifier\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 1075,
       "length": 26,
       "value": "\"skip-signup-chat-history\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 1148,
       "length": 13,
       "value": "\"handle-link\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Component\/Model.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/Model.swift",
       "kind": "StringLiteral",
       "offset": 340,
       "length": 14,
       "value": "\"package-path\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Component\/Model.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/Model.swift",
       "kind": "StringLiteral",
       "offset": 340,
       "length": 14,
       "value": "\"package-path\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Component\/Model.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/Model.swift",
       "kind": "StringLiteral",
       "offset": 449,
       "length": 10,
       "value": "\"HPWebKit.HPResponse\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/Path.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/Path.swift",
       "kind": "StringLiteral",
       "offset": 313,
       "length": 12,
       "value": "\"custom.css\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/Path.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/Path.swift",
       "kind": "StringLiteral",
       "offset": 406,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Component\/HPEventHandler.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/HPEventHandler.swift",
       "kind": "StringLiteral",
       "offset": 143,
       "length": 14,
       "value": "\"HPWebKit.HPEventHandler\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 8080,
+      "offset": 8299,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
       "kind": "IntegerLiteral",
       "offset": 534,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
       "kind": "IntegerLiteral",
       "offset": 545,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
       "kind": "IntegerLiteral",
       "offset": 563,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
       "kind": "IntegerLiteral",
       "offset": 579,
       "length": 6,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
       "kind": "IntegerLiteral",
       "offset": 534,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
       "kind": "IntegerLiteral",
       "offset": 545,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
       "kind": "IntegerLiteral",
       "offset": 563,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
       "kind": "IntegerLiteral",
       "offset": 579,
       "length": 6,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
       "kind": "BooleanLiteral",
       "offset": 830,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
       "kind": "BooleanLiteral",
       "offset": 960,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
       "kind": "BooleanLiteral",
       "offset": 1100,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
       "kind": "StringLiteral",
       "offset": 1129,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
       "kind": "BooleanLiteral",
       "offset": 1160,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
       "kind": "BooleanLiteral",
       "offset": 1194,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
       "kind": "BooleanLiteral",
       "offset": 1229,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
       "kind": "BooleanLiteral",
       "offset": 1257,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
       "kind": "StringLiteral",
       "offset": 1448,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
       "kind": "BooleanLiteral",
-      "offset": 5593,
+      "offset": 5657,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
       "kind": "BooleanLiteral",
-      "offset": 6877,
+      "offset": 6941,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
       "kind": "BooleanLiteral",
-      "offset": 6911,
+      "offset": 6975,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
       "kind": "IntegerLiteral",
       "offset": 177,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
       "kind": "IntegerLiteral",
       "offset": 188,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
       "kind": "IntegerLiteral",
       "offset": 205,
       "length": 5,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
       "kind": "IntegerLiteral",
       "offset": 177,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
       "kind": "IntegerLiteral",
       "offset": 188,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
       "kind": "IntegerLiteral",
       "offset": 205,
       "length": 5,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
       "kind": "IntegerLiteral",
       "offset": 254,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
       "kind": "IntegerLiteral",
       "offset": 265,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
       "kind": "IntegerLiteral",
       "offset": 281,
       "length": 9,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
       "kind": "IntegerLiteral",
       "offset": 300,
       "length": 9,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
       "kind": "IntegerLiteral",
       "offset": 319,
       "length": 6,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
       "kind": "IntegerLiteral",
       "offset": 254,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
       "kind": "IntegerLiteral",
       "offset": 265,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
       "kind": "IntegerLiteral",
       "offset": 281,
       "length": 9,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
       "kind": "IntegerLiteral",
       "offset": 300,
       "length": 9,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
       "kind": "IntegerLiteral",
       "offset": 319,
       "length": 6,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
       "kind": "IntegerLiteral",
       "offset": 254,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
       "kind": "IntegerLiteral",
       "offset": 265,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
       "kind": "IntegerLiteral",
       "offset": 281,
       "length": 9,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
       "kind": "IntegerLiteral",
       "offset": 300,
       "length": 9,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
       "kind": "IntegerLiteral",
       "offset": 319,
       "length": 6,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
       "kind": "StringLiteral",
       "offset": 374,
       "length": 11,
       "value": "\"someValue\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Extension\/String.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Extension\/String.swift",
       "kind": "StringLiteral",
       "offset": 1496,
       "length": 18,
       "value": "\"yyyy-MM-dd HH:mm\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 622,
       "length": 12,
       "value": "\"event_name\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 664,
       "length": 12,
       "value": "\"event_type\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 706,
       "length": 8,
       "value": "\"status\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 744,
       "length": 6,
       "value": "\"link\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 780,
       "length": 13,
       "value": "\"reader_mode\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 823,
       "length": 9,
       "value": "\"message\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 622,
       "length": 12,
       "value": "\"event_name\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 664,
       "length": 12,
       "value": "\"event_type\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 706,
       "length": 8,
       "value": "\"status\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 744,
       "length": 6,
       "value": "\"link\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 780,
       "length": 13,
       "value": "\"reader_mode\""
     },
     {
-      "filePath": "\/Users\/Manuj_Agarwal\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 823,
       "length": 9,
