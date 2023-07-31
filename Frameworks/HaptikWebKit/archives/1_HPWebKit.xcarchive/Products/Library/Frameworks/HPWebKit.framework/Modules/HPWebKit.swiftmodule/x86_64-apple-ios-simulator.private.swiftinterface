@@ -12,7 +12,7 @@ import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
-@_inheritsConvenienceInitializers @objc public class HPAttributesBuilder : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc public class HPAttributesBuilder : ObjectiveC.NSObject, Swift.Codable {
   @objc public var authID: Swift.String?
   @objc public var authCode: Swift.String?
   @objc public var userName: Swift.String?
@@ -23,8 +23,10 @@ import _StringProcessing
   @objc public class func build(data builderData: @escaping (HPWebKit.HPAttributesBuilder) -> Swift.Void) -> Self
   @objc override dynamic public init()
   @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
 }
-@_inheritsConvenienceInitializers @objc public class HPCustomBuilder : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc public class HPCustomBuilder : ObjectiveC.NSObject, Swift.Codable {
   @objc public var primaryColor: Swift.String
   @objc public var fontSize: Swift.String
   @objc public var typography: Swift.String
@@ -43,11 +45,13 @@ import _StringProcessing
   @objc public var loaderEnable: Swift.Bool
   @objc public var loaderMessage: Swift.String
   @objc public var loaderAnimate: Swift.Bool
-  @objc public var loaderColor: UIKit.UIColor?
+  @objc public var loaderColorHex: Swift.String?
   @objc public var ignoreStorage: Swift.Bool
   @objc public class func build(data builderData: @escaping (HPWebKit.HPCustomBuilder) -> Swift.Void) -> Self
   @objc override dynamic public init()
   @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
 }
 public func debPrint(_ object: Any...)
 public func debPrint(_ object: Any)
