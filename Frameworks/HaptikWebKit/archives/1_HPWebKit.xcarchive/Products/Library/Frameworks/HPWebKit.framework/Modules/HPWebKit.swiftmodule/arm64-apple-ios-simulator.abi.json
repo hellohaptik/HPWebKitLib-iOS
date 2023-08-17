@@ -6397,13 +6397,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "SSZipArchive",
-        "printedName": "SSZipArchive",
-        "declKind": "Import",
-        "moduleName": "HPWebKit"
-      },
-      {
         "kind": "TypeDecl",
         "name": "HPstate",
         "printedName": "HPstate",
@@ -7381,1432 +7374,4470 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/HPScriptHandler.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 255,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 369,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 549,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 637,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 736,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 826,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 950,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1110,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1193,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1277,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1360,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1470,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1557,
+      "length": 22,
+      "value": "\"HelveticaNeue-Medium\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1587,
+      "length": 4,
+      "value": "18.0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1884,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2018,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2137,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2726,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2924,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2949,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3413,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3418,
+      "length": 5,
+      "value": "0.000"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3425,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3452,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3457,
+      "length": 5,
+      "value": "0.500"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3464,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3491,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3496,
+      "length": 5,
+      "value": "1.000"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3503,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3530,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3535,
+      "length": 5,
+      "value": "1.500"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3542,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3569,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3574,
+      "length": 5,
+      "value": "1.875"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3581,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3608,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3613,
+      "length": 5,
+      "value": "2.250"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3620,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3647,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3652,
+      "length": 5,
+      "value": "2.625"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3659,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3686,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3691,
+      "length": 5,
+      "value": "3.000"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3698,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3791,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3861,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4018,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4245,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4377,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4418,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4455,
+      "length": 11,
+      "value": "\"strokeEnd\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4558,
+      "length": 20,
+      "value": "\"transform.rotation\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4763,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5320,
+      "length": 2,
+      "value": "36"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5376,
+      "length": 13,
+      "value": "\"strokeColor\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5421,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5530,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5616,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5631,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/ViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5641,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPScriptHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1646,
+      "length": 75,
+      "value": "\"Received unidentified script message \n \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPScriptHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1702,
+      "length": 1,
+      "value": "\" : \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPScriptHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1720,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPScriptHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1982,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPScriptHandler.swift",
       "kind": "StringLiteral",
       "offset": 185,
       "length": 18,
       "value": "\"HPWebKit.HPWebScriptHandler\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Controller\/HPWebController.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/HPWebController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 544,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/HPWebController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 593,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/HPWebController.swift",
+      "kind": "StringLiteral",
+      "offset": 784,
+      "length": 17,
+      "value": "\"HPWebController\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/HPWebController.swift",
+      "kind": "StringLiteral",
+      "offset": 956,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/HPWebController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1377,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/HPWebController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1484,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/HPWebController.swift",
+      "kind": "StringLiteral",
+      "offset": 1498,
+      "length": 24,
+      "value": "\"developerExtrasEnabled\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/HPWebController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1736,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/HPWebController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2263,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/HPWebController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2888,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/HPWebController.swift",
+      "kind": "StringLiteral",
+      "offset": 2956,
+      "length": 24,
+      "value": "\"Nothing to handle here\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/HPWebController.swift",
+      "kind": "StringLiteral",
+      "offset": 3045,
+      "length": 21,
+      "value": "\"Conversation Closed\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/HPWebController.swift",
       "kind": "StringLiteral",
       "offset": 117,
       "length": 15,
       "value": "\"HPWebKit.HPWebController\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Networking\/NetworkMonitor.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/HPWebController.swift",
+      "kind": "StringLiteral",
+      "offset": 5514,
+      "length": 15,
+      "value": "\"Load Complete\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/HPWebController.swift",
+      "kind": "StringLiteral",
+      "offset": 5656,
+      "length": 28,
+      "value": "\"User Registration complete\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/HPWebController.swift",
+      "kind": "StringLiteral",
+      "offset": 5712,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/HPWebController.swift",
+      "kind": "StringLiteral",
+      "offset": 5911,
+      "length": 66,
+      "value": "\"window.HaptikSDK.updatePushNotificationToken(\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/HPWebController.swift",
+      "kind": "StringLiteral",
+      "offset": 5973,
+      "length": 1,
+      "value": "\"\")\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Networking\/NetworkMonitor.swift",
       "kind": "BooleanLiteral",
       "offset": 388,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Networking\/NetworkMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 648,
+      "length": 18,
+      "value": "\"We're connected!\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Networking\/NetworkMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 761,
+      "length": 16,
+      "value": "\"No connection.\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Networking\/NetworkMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 931,
+      "length": 16,
+      "value": "\"NetworkMonitor\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
       "kind": "StringLiteral",
       "offset": 142,
       "length": 15,
       "value": "\"CSS-Sync-Time\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
       "kind": "StringLiteral",
       "offset": 179,
       "length": 21,
       "value": "\"updateAPI-Sync-Time\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
       "kind": "StringLiteral",
       "offset": 142,
       "length": 15,
       "value": "\"CSS-Sync-Time\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
       "kind": "StringLiteral",
       "offset": 179,
       "length": 21,
       "value": "\"updateAPI-Sync-Time\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1059,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1065,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1266,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1362,
+      "length": 54,
+      "value": "\"Unable to create directory \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1415,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1621,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1847,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1911,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1918,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1962,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
       "kind": "StringLiteral",
       "offset": 2031,
       "length": 39,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/OperationHelper.swift",
       "kind": "StringLiteral",
       "offset": 2057,
       "length": 1,
       "value": "\"\/haptik.html\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPResourceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 413,
+      "length": 31,
+      "value": "\"CSS Download error : \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPResourceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 443,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPResourceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 887,
+      "length": 46,
+      "value": "\"File already exists [\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPResourceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 931,
+      "length": 1,
+      "value": "\"]\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPResourceManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1127,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPResourceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1172,
+      "length": 37,
+      "value": "\"file saved [\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPResourceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1207,
+      "length": 1,
+      "value": "\"]\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPResourceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1331,
+      "length": 19,
+      "value": "\"error saving file\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPResourceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1395,
+      "length": 19,
+      "value": "\"Error saving file\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPResourceManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1421,
+      "length": 4,
+      "value": "1001"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPResourceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1582,
+      "length": 24,
+      "value": "\"Error downloading file\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPResourceManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1613,
+      "length": 4,
+      "value": "1002"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPResourceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2135,
+      "length": 45,
+      "value": "\"File already exists at \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPResourceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2179,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPResourceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2464,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPResourceManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2788,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 525,
       "length": 13,
       "value": "\"third_party\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 1128,
+      "length": 35,
+      "value": "\"Authentication attributes missing\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 1280,
       "length": 9,
       "value": "\"auth_id\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 1320,
       "length": 11,
       "value": "\"auth_code\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 1362,
       "length": 10,
       "value": "\"username\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 1403,
       "length": 11,
       "value": "\"mobile_no\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 1464,
       "length": 13,
       "value": "\"signup-type\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 1280,
       "length": 9,
       "value": "\"auth_id\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 1320,
       "length": 11,
       "value": "\"auth_code\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 1362,
       "length": 10,
       "value": "\"username\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 1403,
       "length": 11,
       "value": "\"mobile_no\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 1464,
       "length": 13,
       "value": "\"signup-type\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 1642,
       "length": 9,
       "value": "\"#00758a\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 1711,
       "length": 6,
       "value": "\"16px\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 1777,
       "length": 8,
       "value": "\"Roboto\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "BooleanLiteral",
       "offset": 1844,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "BooleanLiteral",
       "offset": 1907,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "BooleanLiteral",
       "offset": 1970,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 2035,
       "length": 38,
       "value": "\"https:\/\/www.haptik.ai\/privacy-policy\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 2134,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 2254,
       "length": 14,
       "value": "\"Type here...\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 2328,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 2389,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "BooleanLiteral",
       "offset": 2449,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "BooleanLiteral",
       "offset": 2517,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "BooleanLiteral",
       "offset": 2580,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "BooleanLiteral",
       "offset": 2665,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 2731,
       "length": 12,
       "value": "\"Loading...\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "BooleanLiteral",
       "offset": 2805,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "BooleanLiteral",
       "offset": 3037,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 3356,
       "length": 15,
       "value": "\"primary-color\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 3460,
       "length": 27,
       "value": "\"enable-typing-suggestions\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 3530,
       "length": 15,
       "value": "\"hide-composer\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 3588,
       "length": 11,
       "value": "\"no-header\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 3642,
       "length": 20,
       "value": "\"privacy-policy-url\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 3729,
       "length": 21,
       "value": "\"initialize-language\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 3793,
       "length": 22,
       "value": "\"composer-placeholder\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 3858,
       "length": 24,
       "value": "\"unique-chat-identifier\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 3925,
       "length": 17,
       "value": "\"tablet-bg-color\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 3985,
       "length": 13,
       "value": "\"handle-link\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 4066,
       "length": 26,
       "value": "\"skip-signup-chat-history\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 4243,
       "length": 16,
       "value": "\"ignore-storage\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 3356,
       "length": 15,
       "value": "\"primary-color\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 3460,
       "length": 27,
       "value": "\"enable-typing-suggestions\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 3530,
       "length": 15,
       "value": "\"hide-composer\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 3588,
       "length": 11,
       "value": "\"no-header\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 3642,
       "length": 20,
       "value": "\"privacy-policy-url\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 3729,
       "length": 21,
       "value": "\"initialize-language\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 3793,
       "length": 22,
       "value": "\"composer-placeholder\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 3858,
       "length": 24,
       "value": "\"unique-chat-identifier\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 3925,
       "length": 17,
       "value": "\"tablet-bg-color\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 3985,
       "length": 13,
       "value": "\"handle-link\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 4066,
       "length": 26,
       "value": "\"skip-signup-chat-history\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPAttributes.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
       "kind": "StringLiteral",
       "offset": 4243,
       "length": 16,
       "value": "\"ignore-storage\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPAttributes.swift",
+      "kind": "Array",
+      "offset": 4729,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 175,
       "length": 13,
       "value": "\"packagePath\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 227,
       "length": 16,
       "value": "\"packageVersion\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 282,
       "length": 8,
       "value": "\"forced\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 363,
       "length": 11,
       "value": "\"localPath\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 413,
       "length": 14,
       "value": "\"localVersion\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 466,
       "length": 13,
       "value": "\"localForced\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 565,
       "length": 12,
       "value": "\"userSignIn\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 625,
       "length": 19,
       "value": "\"haptikDeviceToken\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 692,
       "length": 23,
       "value": "\"deviceTokenRegistered\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 763,
       "length": 15,
       "value": "\"requestLogout\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 870,
       "length": 20,
       "value": "\"haptikLanguageCode\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 946,
       "length": 20,
       "value": "\"hideLanguageUpdate\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1023,
       "length": 25,
       "value": "\"languageUpdateAvailable\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1164,
       "length": 9,
       "value": "\"baseUrl\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1215,
       "length": 12,
       "value": "\"businessID\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1269,
       "length": 10,
       "value": "\"clientID\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1321,
       "length": 11,
       "value": "\"HaptikLib\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1374,
       "length": 16,
       "value": "\"runEnvironment\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1432,
       "length": 90,
       "value": "\"https:\/\/haptikdev.s3.ap-southeast-1.amazonaws.com\/javascript-xdk\/staging\/wrapperios.html\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1605,
       "length": 13,
       "value": "\"haptikEvent\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1670,
       "length": 16,
       "value": "\"haptikXDKEvent\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1735,
       "length": 11,
       "value": "\"HaptikSDK\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1788,
       "length": 13,
       "value": "\"HPResources\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1843,
       "length": 21,
       "value": "\"com.haptik.HPWebKit\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1906,
       "length": 22,
       "value": "\"com.haptik.DemoSwift\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1975,
       "length": 30,
       "value": "\"com.haptik.framework.devDemo\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 2049,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 2093,
       "length": 3,
       "value": "\"6\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Extension\/Date.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/Date.swift",
       "kind": "StringLiteral",
       "offset": 144,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Extension\/Date.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/Date.swift",
       "kind": "StringLiteral",
       "offset": 386,
       "length": 18,
       "value": "\"yyyy-MM-dd HH:mm\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/Date.swift",
+      "kind": "StringLiteral",
+      "offset": 736,
+      "length": 7,
+      "value": "\"HH:mm\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/Date.swift",
+      "kind": "IntegerLiteral",
+      "offset": 943,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/Date.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1167,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/Date.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1175,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/Date.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1315,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/Date.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1479,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 460,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 875,
+      "length": 4,
+      "value": "0.85"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1073,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1216,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 1463,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 1471,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 1566,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 1604,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 1640,
+      "length": 4,
+      "value": "0.45"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 1909,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 1945,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2126,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2255,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2304,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 2366,
+      "length": 3,
+      "value": "4.0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 2404,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 2440,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 2707,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 2743,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2861,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "BooleanLiteral",
       "offset": 3262,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 3287,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 3664,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 3885,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "BooleanLiteral",
       "offset": 4600,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 4625,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 5533,
+      "length": 4,
+      "value": "0.33"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 5546,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 5621,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 5698,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5988,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 6553,
       "length": 4,
       "value": "0.15"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 6566,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 6682,
       "length": 4,
       "value": "0.75"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 6691,
       "length": 4,
       "value": "0.75"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 6740,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 6887,
       "length": 4,
       "value": "0.35"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 6900,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 6929,
       "length": 4,
       "value": "0.35"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 6958,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "Array",
       "offset": 6972,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 7123,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "StringLiteral",
       "offset": 6413,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 7789,
       "length": 4,
       "value": "20.0"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 7799,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 8397,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 8446,
       "length": 4,
       "value": "0.45"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 8498,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 8547,
       "length": 3,
       "value": "0.9"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 8619,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 8668,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 8719,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 8768,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "BooleanLiteral",
       "offset": 8054,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 9406,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9503,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 9691,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 9701,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10251,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "StringLiteral",
       "offset": 10685,
       "length": 15,
       "value": "\"HelveticaNeue\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 10708,
       "length": 4,
       "value": "22.0"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 10804,
       "length": 5,
       "value": "200.0"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 10819,
       "length": 5,
       "value": "200.0"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "StringLiteral",
+      "offset": 11170,
+      "length": 21,
+      "value": "\"Not coder compliant\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 11256,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPSpinner.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
       "kind": "FloatLiteral",
       "offset": 11312,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "StringLiteral",
+      "offset": 12320,
+      "length": 22,
+      "value": "\"transform.rotation.z\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12452,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 12610,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 12671,
+      "length": 4,
+      "value": "3.14"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 12678,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "StringLiteral",
+      "offset": 12766,
+      "length": 8,
+      "value": "\"rotate\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "StringLiteral",
+      "offset": 13483,
+      "length": 22,
+      "value": "\"transform.rotation.z\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13615,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 13773,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 13834,
+      "length": 5,
+      "value": "-3.14"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 13842,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPSpinner.swift",
+      "kind": "StringLiteral",
+      "offset": 13930,
+      "length": 8,
+      "value": "\"rotate\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 186,
       "length": 15,
       "value": "\"primary-color\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 248,
       "length": 17,
       "value": "\"tablet-bg-color\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 312,
       "length": 11,
       "value": "\"font-size\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 370,
       "length": 12,
       "value": "\"typography\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 429,
       "length": 20,
       "value": "\"privacy-policy-url\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 496,
       "length": 27,
       "value": "\"enable-typing-suggestions\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 570,
       "length": 13,
       "value": "\"header-text\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 630,
       "length": 22,
       "value": "\"composer-placeholder\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 699,
       "length": 15,
       "value": "\"hide-composer\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 761,
       "length": 11,
       "value": "\"no-header\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 819,
       "length": 7,
       "value": "\"debug\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 873,
       "length": 21,
       "value": "\"initialize-language\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 941,
       "length": 16,
       "value": "\"ignore-storage\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 1004,
       "length": 24,
       "value": "\"unique-chat-identifier\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 1075,
       "length": 26,
       "value": "\"skip-signup-chat-history\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Constants\/HPCustomAttribute.swift",
       "kind": "StringLiteral",
       "offset": 1148,
       "length": 13,
       "value": "\"handle-link\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/Model.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/Model.swift",
       "kind": "StringLiteral",
       "offset": 340,
       "length": 14,
       "value": "\"package-path\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/Model.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/Model.swift",
       "kind": "StringLiteral",
       "offset": 340,
       "length": 14,
       "value": "\"package-path\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/Model.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/Model.swift",
       "kind": "StringLiteral",
       "offset": 449,
       "length": 10,
       "value": "\"HPWebKit.HPResponse\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/Path.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Networking\/Router.swift",
+      "kind": "StringLiteral",
+      "offset": 294,
+      "length": 7,
+      "value": "\"https\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Networking\/Router.swift",
+      "kind": "StringLiteral",
+      "offset": 420,
+      "length": 26,
+      "value": "\"toolassets.haptikapi.com\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Networking\/Router.swift",
+      "kind": "StringLiteral",
+      "offset": 518,
+      "length": 15,
+      "value": "\"api.npoint.io\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Networking\/Router.swift",
+      "kind": "StringLiteral",
+      "offset": 669,
+      "length": 62,
+      "value": "\"\/platform\/javascript-xdk\/production\/wrapper_sdk\/version.json\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Networking\/Router.swift",
+      "kind": "StringLiteral",
+      "offset": 803,
+      "length": 23,
+      "value": "\"\/9f149263d5c8a5039e4b\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Networking\/Router.swift",
+      "kind": "Array",
+      "offset": 1024,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Networking\/Router.swift",
+      "kind": "StringLiteral",
+      "offset": 1196,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/Path.swift",
       "kind": "StringLiteral",
       "offset": 313,
       "length": 12,
       "value": "\"custom.css\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/Path.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/Path.swift",
       "kind": "StringLiteral",
       "offset": 406,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/HPEventHandler.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPInternalOperationHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 332,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPInternalOperationHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 351,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPInternalOperationHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 440,
+      "length": 25,
+      "value": "\"Device Token registered\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPInternalOperationHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 756,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPInternalOperationHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 812,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPInternalOperationHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1022,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPInternalOperationHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1998,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPInternalOperationHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2065,
+      "length": 29,
+      "value": "\"LSApplicationQueriesSchemes\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPInternalOperationHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2168,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPInternalOperationHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2175,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPInternalOperationHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2202,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPInternalOperationHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2243,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPInternalOperationHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2380,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPInternalOperationHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2387,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/EventHandlerExtension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 427,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/EventHandlerExtension.swift",
+      "kind": "Dictionary",
+      "offset": 605,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/EventHandlerExtension.swift",
+      "kind": "Array",
+      "offset": 896,
+      "length": 17,
+      "value": "[\"http\", \"https\"]"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/EventHandlerExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 951,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/EventHandlerExtension.swift",
+      "kind": "Dictionary",
+      "offset": 1307,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 807,
+      "length": 19,
+      "value": "\"push_token_update\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 929,
+      "length": 19,
+      "value": "\"sdk_load_complete\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPEventHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1032,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPEventHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1085,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1524,
+      "length": 16,
+      "value": "\"sdk_load_start\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1735,
+      "length": 17,
+      "value": "\"language_update\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPEventHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1766,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1887,
+      "length": 15,
+      "value": "\"external_link\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2049,
+      "length": 15,
+      "value": "\"close_webview\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPEventHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2147,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2197,
+      "length": 19,
+      "value": "\"user_registration\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPEventHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2412,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPEventHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2445,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2769,
+      "length": 18,
+      "value": "\"update_user_data\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2807,
+      "length": 40,
+      "value": "\":::HPKIT::: : Haptik user data updated\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2918,
+      "length": 57,
+      "value": "\"XXXXXXXX Unhandled EVENT : \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2964,
+      "length": 9,
+      "value": "\" XXXXXXXXX\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPEventHandler.swift",
       "kind": "StringLiteral",
       "offset": 143,
       "length": 14,
       "value": "\"HPWebKit.HPEventHandler\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/Color.swift",
+      "kind": "StringLiteral",
+      "offset": 227,
+      "length": 3,
+      "value": "\"#\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/Color.swift",
+      "kind": "IntegerLiteral",
+      "offset": 294,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/Color.swift",
+      "kind": "IntegerLiteral",
+      "offset": 392,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/Color.swift",
+      "kind": "StringLiteral",
+      "offset": 428,
+      "length": 4,
+      "value": "\"ff\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/Color.swift",
+      "kind": "IntegerLiteral",
+      "offset": 482,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/Color.swift",
+      "kind": "IntegerLiteral",
+      "offset": 582,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/Color.swift",
+      "kind": "IntegerLiteral",
+      "offset": 684,
+      "length": 10,
+      "value": "0xff000000"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/Color.swift",
+      "kind": "IntegerLiteral",
+      "offset": 699,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/Color.swift",
+      "kind": "IntegerLiteral",
+      "offset": 705,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/Color.swift",
+      "kind": "IntegerLiteral",
+      "offset": 754,
+      "length": 10,
+      "value": "0x00ff0000"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/Color.swift",
+      "kind": "IntegerLiteral",
+      "offset": 769,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/Color.swift",
+      "kind": "IntegerLiteral",
+      "offset": 775,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/Color.swift",
+      "kind": "IntegerLiteral",
+      "offset": 824,
+      "length": 10,
+      "value": "0x0000ff00"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/Color.swift",
+      "kind": "IntegerLiteral",
+      "offset": 839,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/Color.swift",
+      "kind": "IntegerLiteral",
+      "offset": 844,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/Color.swift",
+      "kind": "IntegerLiteral",
+      "offset": 892,
+      "length": 10,
+      "value": "0x000000ff"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/Color.swift",
+      "kind": "IntegerLiteral",
+      "offset": 906,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 450,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 508,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 515,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 520,
+      "length": 78,
+      "value": "\" Cannot start conversation because your iPhone is not connected to internet.\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 635,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 663,
+      "length": 7,
+      "value": "\"guest\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 789,
+      "length": 1044,
+      "value": "\"<script>\n  document.addEventListener('haptik_sdk', function() {\n    HaptikSDK.signup({\n      username: '\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1013,
+      "length": 2,
+      "value": "\"',\n      auth_id: '\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1074,
+      "length": 2,
+      "value": "\"',\n      auth_code: '\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1139,
+      "length": 2,
+      "value": "\"',\n      mobile_no: '\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1202,
+      "length": 2,
+      "value": "\"',\n      email: '\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1260,
+      "length": 2,
+      "value": "\"',\n      custom_data: \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1328,
+      "length": 4,
+      "value": "\"{}\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1350,
+      "length": 1,
+      "value": "\"\n    }, function(success,error) {\n      if (success) {\n        HaptikSDK.show()\n        console.log('SIGNUP REQUEST SUCCEEDED!');\n      } else {\n        console.log('ERROR:',error);\n      }\n    });\n  });\n  <\/script>\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1923,
+      "length": 133,
+      "value": "\"\/\/ Request logout for current user\n    localStorage.clear();\n\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2091,
+      "length": 5294,
+      "value": "\"<!DOCTYPE html>\n<html>\n <head>\n   <title>Haptik JS SDK Integration Demo<\/title>\n   <meta charset=\"UTF-8\" \/>\n   <meta content=\"width=device-width; initial-scale=1.0;\" name=\"viewport\" \/>\n   <script src=\"https:\/\/js.sentry-cdn.com\/0ec8d7a3f9b346cf8f52fddf2cc5ce91.min.js\" crossorigin=\"anonymous\"><\/script>\n <\/head>\n <style>\n   div {text-align: center;}\n   .content {\n     width: 100%;\n     margin: auto;\n     -ms-transform: translateY(30%);\n     transform: translateY(30%);\n   }\n   <\/style>\n <body style=\"background-color:white;\">\n   <div class=\"content\">\n   <p>\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3163,
+      "length": 2,
+      "value": "\"<\/p>\n   <script>\n   \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3311,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3333,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3337,
+      "length": 6,
+      "value": "\"\n     window.haptikInitSettings = {\n       \"business-id\": \"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3473,
+      "length": 2,
+      "value": "\"\",\n       \"client-id\": \"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3547,
+      "length": 2,
+      "value": "\"\",\n       \"base-url\": \"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3619,
+      "length": 2,
+      "value": "\"\",\n       \"signup-type\": \"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3683,
+      "length": 2,
+      "value": "\"\",\n       \"enable-tablet-support\":true,\n\n       \/\/ Wrapper Custom Data\n       \"mode\" : \"fsm\",\n       \"wrapper-platform-type\" : \"ios\",\n\n       \/\/ Custom Settings\n       \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4034,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4041,
+      "length": 52,
+      "value": "\"\"custom-css\": \"..\/\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4089,
+      "length": 1,
+      "value": "\"\",\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4096,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4099,
+      "length": 35,
+      "value": "\"\n       \"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4166,
+      "length": 5,
+      "value": "\"\" : \"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4201,
+      "length": 2,
+      "value": "\"\",\n       \"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4271,
+      "length": 5,
+      "value": "\"\" : \"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4307,
+      "length": 2,
+      "value": "\"\",\n       \"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4372,
+      "length": 5,
+      "value": "\"\" : \"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4403,
+      "length": 2,
+      "value": "\"\",\n       \"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4479,
+      "length": 5,
+      "value": "\"\" : \"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4521,
+      "length": 2,
+      "value": "\"\",\n       \"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4588,
+      "length": 6,
+      "value": "\"\" : {\"text\" : \"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4631,
+      "length": 3,
+      "value": "\"\"},\n       \"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4705,
+      "length": 5,
+      "value": "\"\" : \"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4744,
+      "length": 2,
+      "value": "\"\",\n       \n       \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4889,
+      "length": 90,
+      "value": "\"\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4931,
+      "length": 1,
+      "value": "\"\" : \"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4975,
+      "length": 1,
+      "value": "\"\",\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4982,
+      "length": 24,
+      "value": "\"\/\/ No-initial Language\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 5007,
+      "length": 1,
+      "value": "\"\n       \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5069,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 5108,
+      "length": 77,
+      "value": "\"\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 5140,
+      "length": 1,
+      "value": "\"\" : \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 5183,
+      "length": 1,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 5188,
+      "length": 22,
+      "value": "\"\/\/ No-header Disable\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 5211,
+      "length": 1,
+      "value": "\"\n       \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5277,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 5316,
+      "length": 85,
+      "value": "\"\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 5352,
+      "length": 1,
+      "value": "\"\" : \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 5399,
+      "length": 1,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 5404,
+      "length": 26,
+      "value": "\"\/\/ Hide-composer disable\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 5431,
+      "length": 1,
+      "value": "\"\n       \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5508,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 5547,
+      "length": 107,
+      "value": "\"\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 5594,
+      "length": 1,
+      "value": "\"\" : \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 5652,
+      "length": 1,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 5657,
+      "length": 30,
+      "value": "\"\/\/ Typing-suggestion Disable\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 5688,
+      "length": 1,
+      "value": "\"\n       \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5755,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 5794,
+      "length": 87,
+      "value": "\"\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 5831,
+      "length": 1,
+      "value": "\"\" : \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 5879,
+      "length": 1,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 5884,
+      "length": 27,
+      "value": "\"\/\/ Ignore-Storage Disable\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 5912,
+      "length": 1,
+      "value": "\"\n       \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5987,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 6051,
+      "length": 103,
+      "value": "\"\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 6096,
+      "length": 1,
+      "value": "\"\" : \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 6152,
+      "length": 1,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 6157,
+      "length": 37,
+      "value": "\"\/\/ skip-signup-chat-history disable\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 6195,
+      "length": 1,
+      "value": "\"\n\n       \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6279,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 6286,
+      "length": 85,
+      "value": "\"\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 6322,
+      "length": 1,
+      "value": "\"\" : \"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 6367,
+      "length": 1,
+      "value": "\"\",\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 6374,
+      "length": 32,
+      "value": "\"\/\/ Unique-chat-id not assigned\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 6407,
+      "length": 11,
+      "value": "\"\n\n       \"sdkEvents\" : function(event){\n           webkit.messageHandlers.\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 6592,
+      "length": 1,
+      "value": "\".postMessage(event);\n       },\n       \/\/ User Custom Data\n       \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 6751,
+      "length": 1,
+      "value": "\"\n   \n     };\n\n   <\/script>\n   <script\n     type=\"text\/javascript\"\n     charset=\"UTF-8\"\n     src=\"https:\/\/toolassets.haptikapi.com\/platform\/javascript-xdk\/production\/loader.js\"\n   ><\/script>\n   \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 7250,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 7254,
+      "length": 2,
+      "value": "\"\n   <\/div>\n <\/body>\n<\/html>\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 7623,
+      "length": 34,
+      "value": "\"Unable to convert string to data\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7787,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 7867,
+      "length": 9,
+      "value": "\"\/haptik\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 7927,
+      "length": 6,
+      "value": "\"html\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 8034,
+      "length": 31,
+      "value": "\"saved: \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 8064,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
       "kind": "BooleanLiteral",
       "offset": 8299,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 8364,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "Array",
+      "offset": 8452,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/HPPageHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8616,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
       "kind": "IntegerLiteral",
       "offset": 534,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
       "kind": "IntegerLiteral",
       "offset": 545,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
       "kind": "IntegerLiteral",
       "offset": 563,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
       "kind": "IntegerLiteral",
       "offset": 579,
       "length": 6,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
       "kind": "IntegerLiteral",
       "offset": 534,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
       "kind": "IntegerLiteral",
       "offset": 545,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
       "kind": "IntegerLiteral",
       "offset": 563,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
       "kind": "IntegerLiteral",
       "offset": 579,
       "length": 6,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
       "kind": "BooleanLiteral",
       "offset": 830,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
       "kind": "BooleanLiteral",
       "offset": 960,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
       "kind": "BooleanLiteral",
       "offset": 1100,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
       "kind": "StringLiteral",
       "offset": 1129,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
       "kind": "BooleanLiteral",
       "offset": 1160,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
       "kind": "BooleanLiteral",
       "offset": 1194,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
       "kind": "BooleanLiteral",
       "offset": 1229,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
       "kind": "BooleanLiteral",
       "offset": 1257,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
       "kind": "StringLiteral",
       "offset": 1448,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "kind": "StringLiteral",
+      "offset": 1647,
+      "length": 24,
+      "value": "\"Haptik Lib Initialised\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "kind": "StringLiteral",
+      "offset": 1729,
+      "length": 23,
+      "value": "\"Setting up Haptik kit\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2196,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "kind": "StringLiteral",
+      "offset": 2277,
+      "length": 27,
+      "value": "\"Skipping update api check\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3371,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "kind": "StringLiteral",
+      "offset": 3850,
+      "length": 38,
+      "value": "\"Already chat controller is presented\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4350,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5253,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "kind": "StringLiteral",
+      "offset": 5467,
+      "length": 10,
+      "value": "\"%02.2hhx\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
       "kind": "BooleanLiteral",
       "offset": 5657,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5706,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5726,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6054,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "kind": "StringLiteral",
+      "offset": 6368,
+      "length": 52,
+      "value": "\"Webcontroller isnt active to refresh signup token \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "kind": "StringLiteral",
+      "offset": 6780,
+      "length": 47,
+      "value": "\"Webcontroller isnt active to update user data\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
       "kind": "BooleanLiteral",
       "offset": 6941,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/HPKit.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
       "kind": "BooleanLiteral",
       "offset": 6975,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 177,
-      "length": 1,
-      "value": "0"
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7011,
+      "length": 4,
+      "value": "true"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 188,
-      "length": 7,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 205,
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7277,
       "length": 5,
-      "value": "2"
+      "value": "false"
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 177,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 188,
-      "length": 7,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 205,
-      "length": 5,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 254,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 265,
-      "length": 6,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 281,
-      "length": 9,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 300,
-      "length": 9,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 319,
-      "length": 6,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 254,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 265,
-      "length": 6,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 281,
-      "length": 9,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 300,
-      "length": 9,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 319,
-      "length": 6,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 254,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 265,
-      "length": 6,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 281,
-      "length": 9,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 300,
-      "length": 9,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 319,
-      "length": 6,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
       "kind": "StringLiteral",
-      "offset": 374,
+      "offset": 7306,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "kind": "StringLiteral",
+      "offset": 7565,
+      "length": 7,
+      "value": "\"owner\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7613,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7643,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7761,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7878,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8465,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8522,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "kind": "StringLiteral",
+      "offset": 8751,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "kind": "StringLiteral",
+      "offset": 8806,
+      "length": 662,
+      "value": "\" _   _             _   _ _\n| | | | __ _ _ __ | |_(_) | __\n| |_| |\/ _` | '_ \\| __| | |\/ \/\n|  _  | (_| | |_) | |_| |   <\n|_| |_|\\__,_| .__\/ \\__|_|_|\\_\\\n            |_|\n _  _  ____  ____  __ _  __  ____\n\/ )( \\(  __)(  _ \\(  \/ )(  )(_  _)\n\\ \/\\ \/ ) _)  ) _ ( )  (  )(   )(\n(_\/\\_)(____)(____\/(__\\_)(__) (__)\n========|| HAPTIK DETAILS ||=======\nSDK VERSION : \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "kind": "StringLiteral",
+      "offset": 9355,
+      "length": 4,
+      "value": "\"\nPROD ENV : \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPKit.swift",
+      "kind": "StringLiteral",
+      "offset": 9403,
+      "length": 35,
+      "value": "\"\n===================================\n\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/JSONAble.swift",
+      "kind": "Array",
+      "offset": 690,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPError.swift",
+      "kind": "StringLiteral",
+      "offset": 244,
+      "length": 28,
+      "value": "\"Missing Haptik credentials\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPError.swift",
+      "kind": "StringLiteral",
+      "offset": 327,
+      "length": 46,
+      "value": "\"Confirm add haptik credentials in info.plist\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 446,
+      "length": 3,
+      "value": "-55"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPError.swift",
+      "kind": "StringLiteral",
+      "offset": 607,
+      "length": 64,
+      "value": "\"Launch controller does not have navigation controller instance\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPError.swift",
+      "kind": "StringLiteral",
+      "offset": 726,
+      "length": 52,
+      "value": "\"Embed launch controller with navigation controller\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/HPError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 851,
+      "length": 3,
+      "value": "-56"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 157,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 168,
+      "length": 7,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 185,
+      "length": 5,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 157,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 168,
+      "length": 7,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 185,
+      "length": 5,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 234,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 245,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 261,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 280,
+      "length": 9,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 299,
+      "length": 6,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 234,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 245,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 261,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 280,
+      "length": 9,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 299,
+      "length": 6,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 234,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 245,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 261,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 280,
+      "length": 9,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 299,
+      "length": 6,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "kind": "StringLiteral",
+      "offset": 354,
       "length": 11,
       "value": "\"someValue\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Extension\/String.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4437,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4478,
+      "length": 16,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4486,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4493,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4529,
+      "length": 12,
+      "value": "\"\/HaptikSDK\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Helper\/PackageManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5003,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/String.swift",
+      "kind": "Array",
+      "offset": 402,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/String.swift",
+      "kind": "StringLiteral",
+      "offset": 1186,
+      "length": 118,
+      "value": "\"^(https?:\/\/)?(www\\.)?([-a-z0-9]{1,63}\\.)*?[a-z0-9][-a-z0-9]{0,61}[a-z0-9]\\.[a-z]{2,6}(\/[-\\w@\\+\\.~#\\?&\/=%]*)?$\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/String.swift",
+      "kind": "StringLiteral",
+      "offset": 1346,
+      "length": 17,
+      "value": "\"SELF MATCHES %@\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Extension\/String.swift",
       "kind": "StringLiteral",
       "offset": 1496,
       "length": 18,
       "value": "\"yyyy-MM-dd HH:mm\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 691,
+      "length": 33,
+      "value": "\"Haptik VC Event : \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 723,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 891,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 1198,
+      "length": 196,
+      "value": "\"window.HaptikSDK.launchMessage(\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 1269,
+      "length": 96,
+      "value": "\"\",null,\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 1297,
+      "length": 1,
+      "value": "\",false,\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 1330,
+      "length": 1,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 1364,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1519,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 1625,
+      "length": 118,
+      "value": "\"window.HaptikSDK.changeLanguage(\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 1702,
+      "length": 12,
+      "value": "\"\",\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 1713,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1960,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 2676,
+      "length": 27,
+      "value": "\"window.HaptikSDK.pause();\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 2807,
+      "length": 104,
+      "value": "\"window.HaptikSDK.renewSignupToken(\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 2879,
+      "length": 3,
+      "value": "\"\");\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 3356,
+      "length": 116,
+      "value": "\"window.HaptikSDK.updateUserData(\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 3433,
+      "length": 1,
+      "value": "\");\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 3638,
+      "length": 64,
+      "value": "\"HPWebKit Error custom user data :\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 3701,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 3989,
+      "length": 13,
+      "value": "\"custom_data\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "Dictionary",
+      "offset": 4020,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 4098,
+      "length": 13,
+      "value": "\"signup-type\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 4125,
+      "length": 13,
+      "value": "\"signup-type\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 4267,
+      "length": 10,
+      "value": "\"base-url\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 4325,
+      "length": 11,
+      "value": "\"client-id\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 4385,
+      "length": 13,
+      "value": "\"business-id\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 4536,
+      "length": 6,
+      "value": "\"mode\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 4546,
+      "length": 5,
+      "value": "\"fsm\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 4574,
+      "length": 23,
+      "value": "\"wrapper-platform-type\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 4601,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 4644,
+      "length": 12,
+      "value": "\"signupData\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 4706,
+      "length": 14,
+      "value": "\"initsettings\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 4772,
+      "length": 15,
+      "value": "\"requestLogout\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4847,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 5168,
+      "length": 106,
+      "value": "\"window.nativeListener(\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 5235,
+      "length": 1,
+      "value": "\");\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 5396,
+      "length": 22,
+      "value": "\"callToScript::::Done\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 5491,
+      "length": 64,
+      "value": "\"HPWebKit Error custom user data :\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 5554,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5674,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Controller\/webController-Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5818,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Utility\/HPUtility.swift",
+      "kind": "StringLiteral",
+      "offset": 576,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Utility\/HPUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 601,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Utility\/HPUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 642,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Utility\/HPUtility.swift",
+      "kind": "IntegerLiteral",
+      "offset": 963,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Utility\/HPUtility.swift",
+      "kind": "StringLiteral",
+      "offset": 1053,
+      "length": 66,
+      "value": "\"Haptik Credentials not available in info.plist or \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Utility\/HPUtility.swift",
+      "kind": "StringLiteral",
+      "offset": 1110,
+      "length": 7,
+      "value": "\" missing\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Utility\/HPUtility.swift",
+      "kind": "StringLiteral",
+      "offset": 1155,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Utility\/HPUtility.swift",
+      "kind": "StringLiteral",
+      "offset": 1245,
+      "length": 37,
+      "value": "\"Missing Client ID, check info.plist\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Utility\/HPUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1357,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Utility\/HPUtility.swift",
+      "kind": "StringLiteral",
+      "offset": 1427,
+      "length": 36,
+      "value": "\"Missing Base URL, check info.plist\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Utility\/HPUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1534,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Utility\/HPUtility.swift",
+      "kind": "StringLiteral",
+      "offset": 1642,
+      "length": 39,
+      "value": "\"Missing Business ID, check info.plist\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Utility\/HPUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1758,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Utility\/HPUtility.swift",
+      "kind": "StringLiteral",
+      "offset": 1828,
+      "length": 36,
+      "value": "\"Missing Prod env, check info.plist\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Utility\/HPUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1946,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Utility\/HPUtility.swift",
+      "kind": "StringLiteral",
+      "offset": 2079,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Utility\/HPUtility.swift",
+      "kind": "StringLiteral",
+      "offset": 2704,
+      "length": 35,
+      "value": "\"::: Haptik ::: \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Utility\/HPUtility.swift",
+      "kind": "StringLiteral",
+      "offset": 2738,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Utility\/HPUtility.swift",
+      "kind": "FloatLiteral",
+      "offset": 2971,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Utility\/HPUtility.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3015,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Utility\/HPUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3071,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Utility\/HPUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3211,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 487,
+      "length": 10,
+      "value": "\"internal\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 622,
       "length": 12,
       "value": "\"event_name\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 664,
       "length": 12,
       "value": "\"event_type\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 706,
       "length": 8,
       "value": "\"status\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 744,
       "length": 6,
       "value": "\"link\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 780,
       "length": 13,
       "value": "\"reader_mode\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 823,
       "length": 9,
       "value": "\"message\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 622,
       "length": 12,
       "value": "\"event_name\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 664,
       "length": 12,
       "value": "\"event_type\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 706,
       "length": 8,
       "value": "\"status\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 744,
       "length": 6,
       "value": "\"link\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 780,
       "length": 13,
       "value": "\"reader_mode\""
     },
     {
-      "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
       "kind": "StringLiteral",
       "offset": 823,
       "length": 9,
       "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 904,
+      "length": 11,
+      "value": "\"undefined\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 945,
+      "length": 11,
+      "value": "\"undefined\""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "kind": "BooleanLiteral",
+      "offset": 986,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1021,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Component\/HPJSEvent.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1089,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Networking\/ServiceLayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1038,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Networking\/ServiceLayer.swift",
+      "kind": "StringLiteral",
+      "offset": 1105,
+      "length": 39,
+      "value": "\"API Failed \""
+    },
+    {
+      "filePath": "\/Users\/Ayushman_Gupta\/Documents\/WebKit-framework\/HPWebKit\/Networking\/ServiceLayer.swift",
+      "kind": "StringLiteral",
+      "offset": 1143,
+      "length": 7,
+      "value": "\"\""
     }
   ]
 }

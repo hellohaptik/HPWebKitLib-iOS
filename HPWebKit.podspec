@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HPWebKit"
-  spec.version      = "1.3.0"
+  spec.version      = "1.4.0"
   spec.summary      = "Say goodbye to App Fatigue. Instantly enable 100+ chatbots across various daily tasks"
 
   spec.description  = <<-DESC
@@ -50,7 +50,7 @@ Pod::Spec.new do |spec|
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   spec.frameworks = "WebKit"  , "UIKit"
-  spec.dependency 'SSZipArchive', '~> 2.2'
+  # spec.dependency 'SSZipArchive', '~> 2.2'
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   spec.requires_arc = true
