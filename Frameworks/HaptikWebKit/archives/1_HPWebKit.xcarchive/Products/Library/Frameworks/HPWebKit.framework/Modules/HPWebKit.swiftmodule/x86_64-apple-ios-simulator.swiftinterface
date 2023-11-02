@@ -33,6 +33,7 @@ import _StringProcessing
   @objc public var hideComposer: Swift.Bool
   @objc public var noHeader: Swift.Bool
   @objc public var privacyPolicyUrl: Swift.String
+  @objc public var customCss: Swift.String
   @objc public var headerText: Swift.String
   @objc public var initializeLanguage: Swift.String?
   @objc public var composerPlaceholder: Swift.String
@@ -126,6 +127,7 @@ extension UIKit.UIColor {
     @objc get
   }
   @objc public func setup()
+  @available(*, unavailable, message: "From Version 1.5.0 and onward, this method is unsupported. It is recommended to use the customCss parameter within the HPCustomBuilder.")
   @objc public func setBusinessCSS(url: Swift.String)
   @objc public func loadGuestConversation(launchController: UIKit.UIViewController, customData: [Swift.String : Swift.String]?) throws
   @objc public func loadConversation(launchController: UIKit.UIViewController, attributes: HPWebKit.HPAttributesBuilder, customData: [Swift.String : Swift.String]?, customSettings: HPWebKit.HPCustomBuilder = HPCustomBuilder.build { _ in}) throws
