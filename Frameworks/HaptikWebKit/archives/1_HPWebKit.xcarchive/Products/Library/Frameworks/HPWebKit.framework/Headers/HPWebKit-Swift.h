@@ -310,6 +310,7 @@ SWIFT_CLASS("_TtC8HPWebKit15HPCustomBuilder")
 @property (nonatomic) BOOL hideComposer;
 @property (nonatomic) BOOL noHeader;
 @property (nonatomic, copy) NSString * _Nonnull privacyPolicyUrl;
+@property (nonatomic, copy) NSString * _Nonnull customCss;
 @property (nonatomic, copy) NSString * _Nonnull headerText;
 @property (nonatomic, copy) NSString * _Nullable initializeLanguage;
 @property (nonatomic, copy) NSString * _Nonnull composerPlaceholder;
@@ -359,7 +360,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) HPKit * _Non
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (void)setup;
-- (void)setBusinessCSSWithUrl:(NSString * _Nonnull)url;
+- (void)setBusinessCSSWithUrl:(NSString * _Nonnull)url SWIFT_UNAVAILABLE_MSG("From Version 1.5.0 and onward, this method is unsupported. It is recommended to use the customCss parameter within the HPCustomBuilder.");
 /// Load guest chats
 /// \param launchController UIViewController
 ///
@@ -752,6 +753,7 @@ SWIFT_CLASS("_TtC8HPWebKit15HPCustomBuilder")
 @property (nonatomic) BOOL hideComposer;
 @property (nonatomic) BOOL noHeader;
 @property (nonatomic, copy) NSString * _Nonnull privacyPolicyUrl;
+@property (nonatomic, copy) NSString * _Nonnull customCss;
 @property (nonatomic, copy) NSString * _Nonnull headerText;
 @property (nonatomic, copy) NSString * _Nullable initializeLanguage;
 @property (nonatomic, copy) NSString * _Nonnull composerPlaceholder;
@@ -801,7 +803,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) HPKit * _Non
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (void)setup;
-- (void)setBusinessCSSWithUrl:(NSString * _Nonnull)url;
+- (void)setBusinessCSSWithUrl:(NSString * _Nonnull)url SWIFT_UNAVAILABLE_MSG("From Version 1.5.0 and onward, this method is unsupported. It is recommended to use the customCss parameter within the HPCustomBuilder.");
 /// Load guest chats
 /// \param launchController UIViewController
 ///

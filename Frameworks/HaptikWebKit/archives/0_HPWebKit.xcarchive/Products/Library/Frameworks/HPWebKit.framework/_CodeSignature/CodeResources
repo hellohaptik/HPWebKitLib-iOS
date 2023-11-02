@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/HPWebKit-Swift.h</key>
 		<data>
-		JJemI7qp77SIKjmAI3pcqsXTg7g=
+		vDAmsYu0vhspfaqvgzy9oU/g7wI=
 		</data>
 		<key>Headers/HPWebKit.h</key>
 		<data>
@@ -18,15 +18,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		r1+tQuKKRShChkEU3USbNPzVUOk=
+		4jdVhuekFWNuRhsLpt6V01ahwZA=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		mU6guZOA+ZOiQUJHnVBzgdMyX34=
+		cTfFfPipVBtheVehXt5UN12v2/c=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		3/nvwZJonqvb2G4/yaORonc8zKk=
+		rKfZW6Tce1tVMr0pOum6QHkY9kk=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		3/nvwZJonqvb2G4/yaORonc8zKk=
+		rKfZW6Tce1tVMr0pOum6QHkY9kk=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		qIBMVQBZ5f+84iuGNmsDkuID1rc=
+		XSl+wr8tJXJkeUDleuGFtoU2Wmw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>XDK-Staging.plist</key>
 		<data>
-		ZDS7t4TU9DdJAaxOi2fib4PlJvk=
+		4SK3WW9f0Qjp/8klShfEuMrAXyU=
 		</data>
 		<key>lottie-player.js</key>
 		<data>
@@ -66,7 +66,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/t2pb0y0jypPV6u9tmftys7rZrtZHa8hGcgoHReJHt8=
+			PsrtGNcu1U3fCTitX9+xQP+uQUkHwzcm7f95DLBp82M=
 			</data>
 		</dict>
 		<key>Headers/HPWebKit.h</key>
@@ -80,14 +80,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PS8yjpHf34+4KimIPwcvQevjYxdmSAvQYDztDe8NAec=
+			PhXbm1j//SEMA58C3MLgfjstYnYOP1M+lNpGE/Y21AE=
 			</data>
 		</dict>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B6eyFBbIv+jh6sJR2GaFCufS03wAAMIEUBiF7zr4fRg=
+			EiriuMNiWjcK61ThWt69vBITQ7ZyRZdhQ2UevyoX/LY=
 			</data>
 		</dict>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -101,14 +101,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B6eyFBbIv+jh6sJR2GaFCufS03wAAMIEUBiF7zr4fRg=
+			EiriuMNiWjcK61ThWt69vBITQ7ZyRZdhQ2UevyoX/LY=
 			</data>
 		</dict>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JQvrcN/CqLPnaDQlv2VpZQA/Cwpou1VzYoOAP2gXBP4=
+			qPvlK0IOUkWkthVo5bozSX6qURvbb5McrhrQ9LVvf7c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -122,7 +122,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ba/gWXOe9Bij4NXzeYKNyeCmPHnDUrcub9CmV3fnnwM=
+			wsn+tMJq3zWMdF35qxJ6Yb52yESVxQse8jsb2nzx+V4=
 			</data>
 		</dict>
 		<key>lottie-player.js</key>
