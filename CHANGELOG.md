@@ -2,6 +2,12 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+
+## [1.5.1]
+
+### Enhancements
+- Implement new XDK supporting CORSE settings
+
 ## [1.5.0]
 
 ### Enhancements

@@ -8807,69 +8807,69 @@
       "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1432,
-      "length": 90,
-      "value": "\"https:\/\/haptikdev.s3.ap-southeast-1.amazonaws.com\/javascript-xdk\/staging\/wrapperios.html\""
+      "length": 85,
+      "value": "\"https:\/\/toolassets.haptikapi.com\/platform\/javascript-xdk\/production\/wrapperios.html\""
     },
     {
       "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1605,
+      "offset": 1600,
       "length": 13,
       "value": "\"haptikEvent\""
     },
     {
       "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1670,
+      "offset": 1665,
       "length": 16,
       "value": "\"haptikXDKEvent\""
     },
     {
       "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1735,
+      "offset": 1730,
       "length": 11,
       "value": "\"HaptikSDK\""
     },
     {
       "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1788,
+      "offset": 1783,
       "length": 13,
       "value": "\"HPResources\""
     },
     {
       "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1843,
+      "offset": 1838,
       "length": 21,
       "value": "\"com.haptik.HPWebKit\""
     },
     {
       "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1906,
+      "offset": 1901,
       "length": 22,
       "value": "\"com.haptik.DemoSwift\""
     },
     {
       "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1975,
+      "offset": 1970,
       "length": 30,
       "value": "\"com.haptik.framework.devDemo\""
     },
     {
       "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2049,
+      "offset": 2044,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/ketan\/Documents\/repo-container\/Jio-Haptik\/Haptik\/webkit-framework\/HPWebKit\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2093,
+      "offset": 2088,
       "length": 3,
       "value": "\"6\""
     },
