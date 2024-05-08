@@ -2,6 +2,10 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.6.0]
+
+### Enhancements
+- Implement apples privacy info
 
 ## [1.5.1]
 
