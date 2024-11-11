@@ -2,6 +2,13 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.7.1]
+
+### Enhancements
+- Support for Xcode 16
+- Add support for Inspectable Logs in Safari
+- Add Support for Swift UI
+
 ## [1.6.0]
 
 ### Enhancements

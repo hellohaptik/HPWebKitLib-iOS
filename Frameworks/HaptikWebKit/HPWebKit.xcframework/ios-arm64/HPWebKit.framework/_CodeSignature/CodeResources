@@ -6,11 +6,11 @@
 	<dict>
 		<key>HPWebController.nib</key>
 		<data>
-		DCmVMZr8oq9Bkid/dcpeDzKsn+I=
+		fTypmzKMA+Nx7TXCmfMQKqTWoIw=
 		</data>
 		<key>Headers/HPWebKit-Swift.h</key>
 		<data>
-		vDAmsYu0vhspfaqvgzy9oU/g7wI=
+		lSe4D6zXfMgVvSG6AiUidjGQvXw=
 		</data>
 		<key>Headers/HPWebKit.h</key>
 		<data>
@@ -18,31 +18,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		B2yYB2k7Z4S9o20aRpMgKxR1x3Y=
+		URPHA/48SCgeGIknhUewD99alTk=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		+nKTCC9nQPBZkN6u0AyfDHYEQgE=
+		jV8xKfrtq5/b9bqJ5YOyCdhS6gc=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		rKfZW6Tce1tVMr0pOum6QHkY9kk=
+		X0jP/RoKh80kbVQnGN0j0d9jlGM=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		qb8DBIJss5+t9QNxBtZRs/ZZLzs=
+		utIrGLd70eGHhIesmLWN3tYTu+w=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		rKfZW6Tce1tVMr0pOum6QHkY9kk=
+		X0jP/RoKh80kbVQnGN0j0d9jlGM=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Se6WhLAqRm5cBZ1T5qqB2SYue14=
+		9SBVoTmREpFIdSgWyqW3yvfTlV0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		S0GPfMf/QUnBmcSL5RQNyy5zPkg=
+		8QdOGGEt2KJ0re45l0e6s/Ex1Pc=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>XDK-Staging.plist</key>
 		<data>
-		nr5GGSihYjVx/yMCGoUxarf7S08=
+		Rzj10c/5LyXC43izK3PU+hcGjRM=
 		</data>
 		<key>lottie-player.js</key>
 		<data>
@@ -63,14 +63,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0qA6e0hzDqHmSys8Vf4N/5/7Pn8xAXRLr5cb+dZXc0E=
+			MJ4+kuacWDVH9TZ69jSh6bZ4G2NVWtLSY3pecExwsL4=
 			</data>
 		</dict>
 		<key>Headers/HPWebKit-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PsrtGNcu1U3fCTitX9+xQP+uQUkHwzcm7f95DLBp82M=
+			V0dRjjsoGKkZSTrGsG4Vyecp5rqzs3K31+bFKKqFyMc=
 			</data>
 		</dict>
 		<key>Headers/HPWebKit.h</key>
@@ -84,42 +84,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DAjVQN8OYLukaSe0IC1iFK0j4waS5XkcJne08BkDcao=
+			1mKC/YnQVkDYdm+/OhMk9aiXHzxUN0hBbMgJGaRkry0=
 			</data>
 		</dict>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EiriuMNiWjcK61ThWt69vBITQ7ZyRZdhQ2UevyoX/LY=
+			BMttMKDzVfGvpkCzQpPEp4B7ovo1HcFpDGzOab2+GAA=
 			</data>
 		</dict>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z6dAXv6DeEscEwK7Hw5ALMAHK8SXarb91IgkCUjtPFU=
+			wUVH/6CHr4kI60ySLXz4hOBB6HqDI5m3hVeL8SqZVcQ=
 			</data>
 		</dict>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EiriuMNiWjcK61ThWt69vBITQ7ZyRZdhQ2UevyoX/LY=
+			BMttMKDzVfGvpkCzQpPEp4B7ovo1HcFpDGzOab2+GAA=
 			</data>
 		</dict>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gd9ahwNT/fMhi9AVKFikVSywnKlSX5VlZ4QpWWOtCEE=
+			X4oRFfYCHSsYSnOCAap44z8MXOYbi7BqkQd+O/GCq+8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SkGlUF+QR2ksQx2O59ha85KHKfqPDpfX9nkKMGRaCUs=
+			zAnNYe3I5EHif/w2x+vRXdVFLME3AKsvv3ViZ4rpOEU=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CcP5Gl1gSC2E+b0H/tR1/1cbM301O/ERUCIJhpQaggY=
+			Znn8PUsxFimFP43Aem+J/L6HrAUCZ+31S/13bw11GoQ=
 			</data>
 		</dict>
 		<key>lottie-player.js</key>
