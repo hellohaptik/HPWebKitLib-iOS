@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name HPWebKit
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name HPWebKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Foundation
 @_exported import HPWebKit
 import Network
@@ -11,6 +11,7 @@ import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @_inheritsConvenienceInitializers @objc public class HPAttributesBuilder : ObjectiveC.NSObject, Swift.Codable {
   @objc public var authID: Swift.String?
   @objc public var authCode: Swift.String?
@@ -55,39 +56,39 @@ import _StringProcessing
 }
 public func debPrint(_ object: Any...)
 public func debPrint(_ object: Any)
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class HPSpinner : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) open class var sharedInstance: HPWebKit.HPSpinner {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class HPSpinner : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency open class var sharedInstance: HPWebKit.HPSpinner {
     get
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func hitTest(_ point: CoreFoundation.CGPoint, with event: UIKit.UIEvent?) -> UIKit.UIView?
-  @_Concurrency.MainActor(unsafe) open var titleLabel: UIKit.UILabel {
-    get
-    set
-  }
-  @_Concurrency.MainActor(unsafe) open var subtitleLabel: UIKit.UILabel?
-  @_Concurrency.MainActor(unsafe) open class func show(_ title: Swift.String, animated: Swift.Bool = true, duration: Swift.Double = 1.0) -> HPWebKit.HPSpinner
-  @_Concurrency.MainActor(unsafe) open class func showWithDelay(_ delay: Swift.Double, title: Swift.String, animated: Swift.Bool = true, duration: Swift.Double = 1.0) -> HPWebKit.HPSpinner
-  @_Concurrency.MainActor(unsafe) open class func hide(_ completion: (() -> Swift.Void)? = nil)
-  @_Concurrency.MainActor(unsafe) open class func setTitleFont(_ font: UIKit.UIFont?)
-  @_Concurrency.MainActor(unsafe) open var title: Swift.String {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func hitTest(_ point: CoreFoundation.CGPoint, with event: UIKit.UIEvent?) -> UIKit.UIView?
+  @_Concurrency.MainActor @preconcurrency open var titleLabel: UIKit.UILabel {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var frame: CoreFoundation.CGRect {
+  @_Concurrency.MainActor @preconcurrency open var subtitleLabel: UIKit.UILabel?
+  @_Concurrency.MainActor @preconcurrency open class func show(_ title: Swift.String, animated: Swift.Bool = true, duration: Swift.Double = 1.0) -> HPWebKit.HPSpinner
+  @_Concurrency.MainActor @preconcurrency open class func showWithDelay(_ delay: Swift.Double, title: Swift.String, animated: Swift.Bool = true, duration: Swift.Double = 1.0) -> HPWebKit.HPSpinner
+  @_Concurrency.MainActor @preconcurrency open class func hide(_ completion: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency open class func setTitleFont(_ font: UIKit.UIFont?)
+  @_Concurrency.MainActor @preconcurrency open var title: Swift.String {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var frame: CoreFoundation.CGRect {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) open var animating: Swift.Bool {
+  @_Concurrency.MainActor @preconcurrency open var animating: Swift.Bool {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) open func addTapHandler(_ tap: @escaping (() -> ()), subtitle subtitleText: Swift.String? = nil)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
-  @_Concurrency.MainActor(unsafe) open func clearTapHandler()
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @objc @_Concurrency.MainActor(unsafe) open func updateFrame()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency open func addTapHandler(_ tap: @escaping (() -> ()), subtitle subtitleText: Swift.String? = nil)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor @preconcurrency open func clearTapHandler()
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc @_Concurrency.MainActor @preconcurrency open func updateFrame()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class HPResponse : ObjectiveC.NSObject {
