@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HaptikLib</key>
+	<dict>
+		<key>baseUrl</key>
+		<string>YOUR_BASE_URL</string>
+		<key>businessID</key>
+		<string>YOUR_BUSINESS_ID</string>
+		<key>clientID</key>
+		<string>YOUR_CLIENT_ID</string>
+		<key>runEnvironment</key>
+		<string>0</string>
+	</dict>
+</dict>
+</plist>

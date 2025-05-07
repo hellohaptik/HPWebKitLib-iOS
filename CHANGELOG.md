@@ -2,6 +2,12 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+
+## [1.8.0]
+
+### Enhancements
+- Add Swift Package Manager Support
+
 ## [1.7.1]
 
 ### Enhancements
