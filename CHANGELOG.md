@@ -2,6 +2,10 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.8.1]
+
+### Bugs
+- Fix crash on image upload (iOS 15)
 
 ## [1.8.0]
 
