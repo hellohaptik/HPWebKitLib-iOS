@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		HEl1oX6+5JzCK06337WyixtvtS8=
+		qUYybGgY4cpAZowMo6Ciwv8q6II=
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/HPWebKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		9SBVoTmREpFIdSgWyqW3yvfTlV0=
+		VY7OLmFeZxewjdv2SYcF2efmSNs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>XDK-Staging.plist</key>
 		<data>
-		6bwq2KscKrNGIooibHVhGdV3/8A=
+		uVf65R8/G+lZeTfJ5y3Npqswp4s=
 		</data>
 		<key>lottie-player.js</key>
 		<data>
@@ -112,7 +112,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			X4oRFfYCHSsYSnOCAap44z8MXOYbi7BqkQd+O/GCq+8=
+			kcxVT5WmOGOERQxaWmV/vcDEC2kWYTvJUMj345dcjcs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			94wMgIB9Q5pj7haXiLlHp9vlRdIe3A9O1/ZC3Mc08Do=
+			4qquk+08OZEJP6g3gL88sfLQUJ9Z/pYM2+UdPFtdOHg=
 			</data>
 		</dict>
 		<key>lottie-player.js</key>
