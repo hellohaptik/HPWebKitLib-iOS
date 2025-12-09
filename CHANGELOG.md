@@ -2,6 +2,11 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.8.3]
+
+### Enhancements
+- Add redirection support for universal links
+
 ## [1.8.2]
 
 ### Enhancements
